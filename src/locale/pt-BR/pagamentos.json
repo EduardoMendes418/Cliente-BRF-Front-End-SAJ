@@ -1,0 +1,113 @@
+{
+	"page": "pagamento",
+	"formaPagamento": "Forma de pagamento",
+	"formaPagamento_plural": "Formas de pagamento",
+	"tipoPagamento": "Tipo de pagamento",
+	"tipoDeConta": "Tipo de conta",
+	"exceptionRules": "Regras e fluxos de aprovação",
+	"tipoPagamento_plural": "Tipos de pagamento",
+	"id": "Id",
+	"tipoPagamentoForm": {
+		"eSocialRestriction": "Restrição eSocial",
+		"uploadESocialPJC": "Upload eSocial PJC",
+		"modulos": "Módulos",
+		"simParcial": "Sim - Parcial",
+		"simTotal": "Sim - Total",
+		"workflowsAprovacao": "Gerar workflow de aprovação",
+		"solicitarPagamentoBaixaProvisoria": "Solicitar pagamento em status baixa provisória",
+		"cancelamentoAutomatico": "Ativar cancelamento automático",
+		"abaterSaldoProvisao": "Abater saldo provisão",
+		"gerarBensGarantias": "Gerar bens/garantias",
+		"alterarStatusProcesso": "Alterar status processo",
+		"generateGuidesFiles": "Gerar guias/arquivos",
+		"gerarCalculoPagamento": "Gerar cálculo de pagamento",
+		"contabilizarPagamentoSap": "Contabilizar pagamento no SAP",
+		"contabilizarCreditoSap": "Contabilizar crédito no SAP",
+		"processType": "Tipo processo aprovação",
+		"resultProcessFolder": "Resultado na ficha do processo",
+		"importarDados": "Importar dados (conta judicial/apólices)",
+		"disponibilizarComprovantePagamento": "Disponibilizar comprovante de pagamento/outros documentos",
+		"ruleAlreadyRegistered": "Regra já cadastrada para essa área",
+		"contabilizarCcPorAreaDejur": "Contabilizar CC por área DEJUR",
+		"eSocialRectification": "Retificação eSocial",
+		"status": "Status"
+	},
+	"relacaoTipoXFormaPagamento": "Listagem de formulários vinculados",
+	"tipoXFormaPagamento": {
+		"vinculo": "vínculo",
+		"titulo": "Atribuir formulário à pagamento/forma",
+		"novoVinculo": "Novo vínculo",
+		"formularioVinculado": "Formulário vinculado",
+		"visualizarForm": "Visualizar formulário",
+		"visualizacaoFormulario": "Visualização de formulário"
+	},
+	"prazoDiasFinanceiro": {
+		"title": "Prazo de dias do financeiro",
+		"label": "Prazo de dias do financeiro"
+	},
+	"paymentCode": {
+		"title": "Código do pagamento INSS/GPS/DARF",
+		"labelInssGps": "Código do pagamento INSS/GPS",
+		"labelDarf": "Código da receita (DARF)",
+		"labelGpsIdentifier": "Código identificador GPS",
+		"labelDarfCpfCnpj": "Número CPF / CNPJ DARF",
+		"labelCollectionCodeFGTS": "Código Recolhimento SEFIP (FGTS)",
+		"labelCollectionCodeINSS": "Código Recolhimento SEFIP (INSS)",
+		"codigoRecolhimentoPeritoDarf": "Código Recolhimento Perito (DARF)"
+	},
+	"indiceFgts": {
+		"title": "Índice FGTS",
+		"label": "Índice FGTS"
+	},
+	"indiceInssGps": {
+		"title": "Índice INSS/GPS",
+		"ratAjustado": "RAT Ajustado",
+		"reclamado": "Reclamado",
+		"rat": "RAT",
+		"outrasEntidades": "Outras entidades",
+		"dialog": {
+			"title": "Não existe tabela de INSS ativa para a data atual",
+			"text": "Os cálculos dos campos Valor INSS (reclamante) e Valor INSS (reclamado) não podem ser calculados para a data atual mas ainda podem ser inseridos manualmente."
+		}
+	},
+	"IRTable": {
+		"title": "Valores IRRF",
+		"label": "Parâmetros de valores do IR"
+	},
+	"incomeTaxRates": {
+		"titleSearch": "Buscar tabelas IRRF",
+		"titleList": "Listagem tabelas IRRF",
+		"id": "ID da tabela",
+		"initialDate": "Data início da vigência",
+		"finalDate": "Data final da vigência",
+		"form": {
+			"title": "Valores IRRF",
+			"aliquot": "Alíquota (%)",
+			"portion": "Parcela a deduzir do IRRF (R$)",
+			"calculationBase": "Base de cálculo (R$)"
+		}
+	},
+	"agreementAuthorization": {
+		"title": "Solicitar autorização de acordo",
+		"title2": "Dados do acordo",
+		"maxAgreementValue": "Valor máximo do acordo"
+	},
+	"logs": {
+		"titleList": "Logs",
+		"titlePossibleApprovers": "Possíveis aprovadores",
+		"date": "Data",
+		"obs": "Observação",
+		"possibleApproverName": "Nome do possível aprovador",
+		"approvalSequence": "Sequência de aprovação"
+	},
+	"DIRF": {
+		"title": "Emitir DIRF",
+		"anoCalendario": "Período de Apuração",
+		"nome": "Responsável pelo preenchimento",
+		"cpf": "CPF",
+		"telefoneDDD": "DDD",
+		"telefone": "Telefone",
+		"telefoneRamal": "Ramal",
+		"corpCeoCPF": "CPF responsável perante CNPJ"
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"runEqualization": {
+		"titleList": "Listagem das equalizações executadas",
+		"titleSearch": "Buscar equalizações executadas",
+		"titleForm": "Dados da equalização",
+		"list": {
+			"exportReport": "Exportar relatório",
+			"requestDate": "Data solicitação",
+			"finishingTime": "Hora finalização",
+			"completionDate": "Data finalização",
+			"requestingUser": "Usuário solicitante",
+			"folderCTG": "Número da pasta CTG",
+			"processNumber": "Número do processo",
+			"oppositeParty": "Parte contrária",
+			"dejurArea": "Área DEJUR",
+			"costCenter": "Centro de custo aprovador",
+			"internalLawyer": "Advogado interno",
+			"responsibleLegalLawyer": "Advogado responsável jurídico",
+			"equalizationReport": "Relatório da equalização",
+			"notEqualized": "Pastas/CTGs não equalizadas/Inconsistentes",
+			"requestDateStart": "Data solicitação (de)",
+			"requestDateEnd": "Data solicitação (até)",
+			"reason": "Motivo",
+			"equalizedValue": "Valor Equalizado"
+		}
+	},
+	"closingRoutine": {
+		"title": "Competência de fechamento",
+		"titleList": "Listagem de competências de fechamento",
+		"list": {
+			"id": "Id",
+			"period": "Mês competência",
+			"status": "Status",
+			"startDateCompetence": "Período competência de",
+			"endDateCompetence": "Período competência até"
+		}
+	},
+	"provisionReport": {
+		"title": "Relatório de provisão",
+		"generateReport": "Gerar relatório",
+		"gridListTitle": "Listagem do relatório de provisão",
+		"filter": {
+			"title": "Relatório de provisão",
+			"dejurArea": "Área DEJUR",
+			"period": "Período",
+			"periodOne": "Mês Competência 01",
+			"periodTwo": "Mês Competência 02",
+			"createdDate": "Data solicitação",
+			"requester": "Sollicitante"
+		}
+	},
+	"businesCombination": {
+		"title": "Business combination",
+		"search": {
+			"competencyYear": "Mês / ano de competência",
+			"dejurArea": "Área DEJUR",
+			"itHasBC": "Possuí BC"
+		},
+		"list": {
+			"title": "Listagem de business combination",
+			"id": "Id",
+			"requestNumber": "Número da solicitação",
+			"monthOfCompetence": "Mês de competência",
+			"requestingUser": "Usuário solicitante",
+			"date": "Data",
+			"hour": "Hora",
+			"status": "Status"
+		}
+	},
+	"closedProcess": {
+		"title": "Honorário de Êxito",
+		"generateReport": "Gerar relatório",
+		"filter": {
+			"title": "Honorário de Êxito",
+			"dejurArea": "Área DEJUR",
+			"period": "Mês de competência"
+		}
+	},
+	"definitiveLow": {
+		"title": "Executar baixa definitiva"
+	}
+}

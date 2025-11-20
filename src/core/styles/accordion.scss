@@ -1,0 +1,9 @@
+.form-accordion {
+	& .MuiAccordionSummary-root.Mui-expanded {
+		min-height: 52px;
+	}
+
+	& .MuiAccordionSummary-content.Mui-expanded {
+		margin: 0;
+	}
+}

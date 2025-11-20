@@ -1,0 +1,72 @@
+{
+	"tituloFormularioNovo": "New {{title}}",
+	"tituloFormularioEdicao": "Edit {{title}}",
+	"btnNew": "New",
+	"btnSalvarEdicao": "Save",
+	"editar": "Edit",
+	"excluir": "Delete",
+	"acoes": "Actions",
+	"status": "Status",
+	"enabled": "Enabled",
+	"formulario": "Form",
+	"confirmDeletion": "Are you sure you want to delete?",
+	"desejaDesativarItem": "The item could not be deleted.\nDo you want to disable it instead?",
+	"naoFoiPossivelExcluir": "It was not possible to delete this item.",
+	"ok": "OK",
+	"sim": "Yes",
+	"nao": "No",
+	"disabled": "Disabled",
+	"notFound": "No results found",
+	"dashboard": "Dashboard",
+	"pagamentos": "Payments",
+	"requestPayment": "Request payment",
+	"calculos": "Estimates",
+	"requisitions": "Requests",
+	"configuracoes": "Settings",
+	"receivingCredit": "Credit receiving",
+	"conciliation": "Conciliation",
+	"conciliationConsultation": "Conciliation consultation",
+	"goodsAndGuarantees": "Goods and guarantees",
+	"requestGoodsAndGuarantees": "Request goods and guarantees",
+	"goodsAndGuaranteesFlow": "Goods and guarantees flow",
+	"goodsAndGuaranteesManagement": "Goods and guarantees management",
+	"config": {
+		"pesquisarEmConfiguracoes": "Search in settings"
+	},
+	"selecione": "Select",
+	"selecionarUm": "Select one {{item}}",
+	"selecionarUma": "Select one {{item}}",
+	"required": "Required field",
+	"nenhum": "None",
+	"personInformation": {
+		"cpf": "CPF",
+		"name": "Name",
+		"birthDate": "Birth date"
+	},
+	"folderNotFound": "No folders found",
+	"requestAddedSuccessfully": "Request added successfully",
+	"anErrorHasOcurred": "An error has ocurred!",
+	"view": "View",
+	"recordEditedSuccessfully": "Record edited successfully!",
+	"invalidDate": "Invalid date",
+	"attachments": {
+		"addFile": "Add file",
+		"deleteFile": "Delete file",
+		"download": "Download"
+	},
+	"processInformation": {
+		"processNumber": "Process number"
+	},
+	"form": {
+		"CTG": "CTG",
+		"CTGFolder": "Pasta CTG",
+		"area": "Area",
+		"comments": "Comments",
+		"attachments": "Attachments",
+		"CTGFolderRequiredMessage": "Fill in the field to perform the search",
+		"typeHere": "Type here",
+		"from": "From",
+		"to": "To",
+		"bank": "Bank"
+	}
+}

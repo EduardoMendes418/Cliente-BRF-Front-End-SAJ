@@ -1,0 +1,63 @@
+{
+	"request": {
+		"menuTitle": "Request",
+		"title": "Request pensions",
+		"filter": "Search request",
+		"buttonNew": "New request",
+		"requestNumber": "Request number",
+		"requestDate": "Request date",
+		"nameOppositeParty": "Name opposite party",
+		"list": {
+			"title": "Request listing"
+		},
+		"form": {
+			"title": "Request pension",
+			"status": "Status",
+			"judicialPensionStatus": "Judicial pension status",
+			"dismissalReason": "Dismissal reason",
+			"dismissalDate": "Dismissal date",
+			"dismissalReasonJustification": "Dismissal reason justification",
+			"location": "Location",
+			"processKey": "Process key",
+			"opposingPartyName": "Name of the opposing party",
+			"gender": "Gender",
+			"pensionData": "Pension data",
+			"pensionCategory": "Pension category",
+			"reviewAction": "Review action",
+			"correctionForm": "Correnction form",
+			"correctionBaseDate": "Correction base date",
+			"decision": "Decision",
+			"pensionPaymentStartDate": "Pension payment start date",
+			"pensionPaymentEndDate": "Pension payment end date",
+			"monthlyPensionAmount": "Monthly pension amount",
+			"numberOfPensionInstallments": "Number of pension installments",
+			"FGTSPayment": "FGTS payment",
+			"FGTSPensionAmount": "FGTS pension amount",
+			"FGTSLinkedAccount": "FGTS linked account",
+			"vacationPayment": "Holiday pay",
+			"vacationPensionAmount": "Holiday pension amount",
+			"paymentOf13thSalary": "Payment of 13th salary",
+			"pensionAmount13thSalary": "Pension amount 13th salary",
+			"shortTermValue": "Short term value",
+			"longTermValue": "Long term value"
+		},
+		"payments": {
+			"SAPDateProvision": "SAP date provision",
+			"SAPDocumentNumberProvision": "SAP document number provision",
+			"SAPProvisionedAmount": "SAP provisioned amount",
+			"paymentPeriod": "Payment period"
+		},
+		"validations": {
+			"folderNumber": "Fill in the field to perform the search",
+			"birthDate": "Date of birth cannot be a future date",
+			"paymentFinishDate": "End date cannot be less than start date"
+		},
+		"configurations": {
+			"formsOfCorrection": "Forms of correction",
+			"formOfCorrection": "Form of correction",
+			"successAddMessage": "Form of correction successfully added!",
+			"successEditMessage": "Form of correction successfully edited!",
+			"successDeleteMessage": "Form of correction successfully deleted!"
+		}
+	}
+}

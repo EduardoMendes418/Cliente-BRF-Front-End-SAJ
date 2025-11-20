@@ -1,0 +1,313 @@
+import { Box, Grid } from "@material-ui/core";
+import { Formik, useFormikContext } from "formik";
+import moment from "moment";
+import { useCallback, useEffect, useState } from "react";
+import {
+	CPFOrCNPJField,
+	DateField,
+	MaskField,
+	PhoneField,
+	SelectField,
+	TextField,
+} from "src/components/form";
+import {
+	SupplierUpdateRequestData,
+	TPaymentFavoredData,
+} from "src/core/models/payment";
+import { useBanks, useStatesAndCities } from "src/hooks/fetchLists";
+import { t } from "src/locale/i18n";
+import { cnpj } from "cpf-cnpj-validator";
+import { Submit, Button } from "src/components/button";
+import { getLastModalOpen } from "src/core/store/modules/modals/selectors";
+import { useDispatch, useSelector } from "react-redux";
+import { actions, AppDispatch } from "src/core/store";
+import { useSnackbar } from "notistack";
+import { updateSupplier } from "src/core/store/modules/payment-update-supplier/thunks";
+import { fetchPaymentAccountType } from "src/core/store/modules/payment-account-type/thunks";
+import { getListPaymentAccountType } from "src/core/store/modules/payment-account-type/selectors";
+
+export type Props = {
+	data: TPaymentFavoredData;
+	callback: (data: TPaymentFavoredData) => void;
+};
+
+type InternalProps = {
+	onCloseModal: () => void;
+	disableSendButton: boolean;
+};
+
+const InternalComponent: React.FC<InternalProps> = (props) => {
+	const formik = useFormikContext<TPaymentFavoredData>();
+	const [isCNPJ, setIsCNPJ] = useState(false);
+	const [isBankTypeRequired, setIsBankTypeRequired] = useState<boolean>(false);
+
+	const dispatch = useDispatch();
+	const paymentAccountTypeAsOption = useSelector(getListPaymentAccountType);
+	
+	useEffect(() => {
+		setIsCNPJ(cnpj.isValid(formik.values.cpf));
+	}, [formik.values.cpf]);
+
+	useEffect(()=>{
+		if(formik.values.bancoId === 32 && formik.values.bankType === undefined){
+			setIsBankTypeRequired(true)
+		} else
+			setIsBankTypeRequired(false)
+
+	}, [formik.values.bancoId, formik.values.bankType])
+
+	const { banksAsOptions } = useBanks();
+
+	const { statesAsOptions, citiesAsOptions } = useStatesAndCities(
+		formik.values.estadoId || 0
+	);
+
+	const paymentAccountTypeAsOptionFiltered = paymentAccountTypeAsOption.filter((paymentType: { isActive: boolean; }) => paymentType.isActive === true).map((paymentType) => (
+		{
+			label: `${paymentType.code} - ${paymentType.description}`,
+			value: paymentType.id
+		}
+	))
+
+	useEffect(() => {
+		dispatch(fetchPaymentAccountType())
+	}, [])
+
+	return (
+		<form noValidate onSubmit={formik.handleSubmit}>
+			<Box marginX={0} marginY={1}>
+			<Grid container spacing={3}>
+				<Grid item xs={12} md={4}>
+					<CPFOrCNPJField
+						name="cpf"
+						label={t("solicitacaoPagamento:dadosFavorecido.cpfcnpj")}
+					/>
+				</Grid>
+				<Grid item xs={12} md={8}>
+					<TextField
+						label={t("solicitacaoPagamento:dadosFavorecido.favorecido")}
+						name="nomeReclamante"
+						maxLength={35}
+					/>
+				</Grid>
+			</Grid>
+			<Grid container spacing={3}>
+				<Grid item xs={12} md={4}>
+					<SelectField
+						required
+						name="bancoId"
+						label={t("solicitacaoPagamento:dadosFavorecido.banco")}
+						options={banksAsOptions}
+					/>
+				</Grid>
+				<Grid item xs={10} md={2}>
+					<TextField
+						label={t("solicitacaoPagamento:dadosFavorecido.agencia")}
+						name="agencia"
+						required
+					/>
+				</Grid>
+				<Grid item xs={2} md={1}>
+					<TextField label="DV" name="agenciaDv" maxLength={4} />
+				</Grid>
+				<Grid item xs={10} md={2}>
+					<TextField
+						required
+						label={t("solicitacaoPagamento:dadosFavorecido.conta")}
+						name="conta"
+					/>
+				</Grid>
+				<Grid item xs={2} md={1}>
+					<TextField label="DV" name="contaDv" maxLength={1} />
+				</Grid>
+				<Grid item xs={12} md={2}>
+					<SelectField 
+						required={formik.values.bancoId === 32 ? true : false}
+						helperText={'Campo obrigatório'}
+						error={isBankTypeRequired}
+						label={t("solicitacaoPagamento:dadosFavorecido.bankType")}
+						name="bankType"
+						options={paymentAccountTypeAsOptionFiltered ?? []}
+					/>
+				</Grid>
+			</Grid>
+			<Grid container spacing={3}>
+				<Grid item xs={12} sm={5} md={3} xl={2}>
+					<DateField
+						required={!isCNPJ}
+						name="dataNascimento"
+						label={t("solicitacaoPagamento:dadosFavorecido.dataNascimento")}
+						maxDate={moment()}
+					/>
+				</Grid>
+				<Grid item xs={12} sm={7} md={5} xl={4}>
+					<TextField
+						required
+						name="email"
+						label={t("solicitacaoPagamento:dadosFavorecido.email")}
+					/>
+				</Grid>
+				<Grid item xs={12} sm={5} md={4} xl={2}>
+					<PhoneField
+						required
+						name="telefone"
+						label={t("solicitacaoPagamento:dadosFavorecido.telefone")}
+						type="phone"
+					/>
+				</Grid>
+			</Grid>
+			<Grid container spacing={3}>
+				<Grid item xs={12} sm={7} md={3} xl={2}>
+					<MaskField
+						required
+						name="cep"
+						mask="99999-999"
+						minLength={9}
+						label={t("solicitacaoPagamento:dadosFavorecido.cep")}
+						type="cep"
+					/>
+				</Grid>
+				<Grid item xs={12} sm={8} md={7} xl={4}>
+					<TextField
+						required
+						name="endereco"
+						label={t("solicitacaoPagamento:dadosFavorecido.endereco")}
+					/>
+				</Grid>
+				<Grid item xs={12} sm={4} md={2} xl={3}>
+					<TextField
+						required
+						name="numero"
+						label={t("solicitacaoPagamento:dadosFavorecido.numero")}
+					/>
+				</Grid>
+			</Grid>
+			<Grid container spacing={3}>
+				<Grid item xs={12} sm={12} md={4} xl={3}>
+					<TextField
+						required
+						name="bairro"
+						label={t("solicitacaoPagamento:dadosFavorecido.bairro")}
+					/>
+				</Grid>
+				<Grid item xs={12} sm={12} md={4} xl={3}>
+					<SelectField
+						required
+						name="estadoId"
+						label={t("solicitacaoPagamento:dadosFavorecido.estado")}
+						options={statesAsOptions}
+					/>
+				</Grid>
+				<Grid item xs={12} sm={12} md={4} xl={3}>
+					<SelectField
+						required
+						name="cidadeId"
+						label={t("solicitacaoPagamento:dadosFavorecido.cidade")}
+						options={citiesAsOptions}
+					/>
+				</Grid>
+				<Grid container justifyContent="flex-end" className="margin-top-16">
+					<Grid item xs={12} md={2} style={{ textAlign: "end" }}>
+						<Button
+							text={t("solicitacaoPagamento:dadosFavorecido.backButton")}
+							onClick={props.onCloseModal}
+							variant="text"
+						/>
+						<Submit
+							text={t("solicitacaoPagamento:dadosFavorecido.sendButton")}
+							submitting={props.disableSendButton}
+						/>
+					</Grid>
+				</Grid>
+			</Grid>
+			</Box>
+		</form>
+	);
+};
+
+const UpdateSupplierModal: React.FC<Props> = (props) => {
+	const modalId = useSelector(getLastModalOpen);
+	const dispatch = useDispatch<AppDispatch>();
+	const { enqueueSnackbar } = useSnackbar();
+	const [disableSendButton, setIsDisableSendButton] = useState<boolean>(false);
+
+	const backHandler = useCallback(() => {
+		dispatch(actions.modal.close({ modalId }));
+	}, [dispatch, modalId]);
+
+	const handleSubmit = useCallback(
+		async (form: TPaymentFavoredData) => {
+			setIsDisableSendButton(true);
+			const body: SupplierUpdateRequestData = {
+				cpf: form.cpf,
+				bancoId: Number(form.bancoId),
+				agencia: form.agencia,
+				agenciaDv: form.agenciaDv,
+				conta: form.conta,
+				contaDv: form.contaDv,
+				dataNascimento: form.dataNascimento,
+				email: form.email,
+				telefone: form.telefone,
+				cep: form.cep,
+				endereco: form.endereco,
+				numero: form.numero,
+				bairro: form.bairro,
+				cidadeId: Number(form.cidadeId),
+				estadoId: Number(form.estadoId),
+				fornecedorId: form.fornecedorId ?? "",
+				nomeReclamante: form.nomeReclamante,
+				paymentAccountTypeId: form.bankType
+			};
+			const regex = /^[0-9]{2}.?[0-9]{3}-?[0-9]{3}$/;
+			if (!regex.test(body.cep)) return enqueueSnackbar(`O CEP informado é inválido. Por favor, verifique se o formato está correto (99.999-999) e tente novamente.`, {
+				variant: "error",
+			});
+
+			const { payload, meta } = await dispatch(updateSupplier(body));
+			setIsDisableSendButton(false)
+			if (meta.requestStatus === "rejected") {
+				return enqueueSnackbar(`Ocorreu um erro com a solicitação:  ${payload.detail}`, {
+					variant: "error",
+				});
+			}
+
+			if(payload.messageType === 'N'){
+				if(payload.message.includes('{') === false){
+					return enqueueSnackbar(`${payload.message}`, {
+						variant: "error",
+					});
+				}
+				const details = JSON.parse(payload.message)
+				return enqueueSnackbar(`Ocorreu um erro com a solicitação:  ${details[0].msgv1}`, {
+					variant: "error",
+				});
+			}
+
+			if (payload.messageType === 'S') {
+				enqueueSnackbar(`${payload.message}`, {
+					variant: "success",
+				});
+
+				props.callback(form);
+
+				return backHandler();
+			}
+
+			return enqueueSnackbar(
+				`Ocorreu um erro com a solicitação: ${payload.message}`,
+				{
+					variant: "error",
+				}
+			);
+		},
+		[dispatch, enqueueSnackbar, backHandler, props]
+	);
+
+	return (
+		<Formik initialValues={props.data} onSubmit={handleSubmit}>
+			{() => <InternalComponent disableSendButton={disableSendButton} onCloseModal={backHandler} />}
+		</Formik>
+	);
+};
+
+export default UpdateSupplierModal;

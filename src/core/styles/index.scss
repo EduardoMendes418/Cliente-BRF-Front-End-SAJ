@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@font-face {
+	font-family: 'CoHeadline';
+	src: url('./fonts/CoHeadlineRegular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'CoHeadline Bold';
+	src: url('./fonts/CoHeadlineBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'CoHeadline Light';
+	src: url('./fonts/CoHeadlineLight.ttf') format('truetype');
+}
+
+html {
+	padding: 0;
+}
+
+body {
+	background-color: #f3eeee !important;
+}
+
+
+.breadcrumbs a,
+.breadcrumbs p.link {
+	cursor: pointer;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.54);
+
+	&:hover {
+		color: #2c3890;
+	}
+}
+
+.overrideHelperText-red {
+	.MuiFormHelperText-root {
+		color: red !important;
+	}
+}
+
+@import './breakpoint';
+@import './mixins';
+@import './panel';
+@import './upload-card';
+@import './sidebar';
+@import './button';
+@import './accordion';
+@import './field-column-log';
+@import './field';
+@import './field-column';
+@import './gray-box';
+
+.MuiOutlinedInput-input:read-only {
+	cursor: default;
+}
+
+.MuiDialogContent-root {
+	.panel {
+		margin-top: 0;
+
+		&-header .panel-title {
+			padding-top: 0;
+		}
+	}
+}
+
+.MuiTableRow-root {
+	.MuiTableCell-head {
+		padding: 16px 15px;
+	}
+
+	.MuiTableCell-body {
+		padding: 8px 15px;
+	}
+}
+
+.MuiListItem-root.label {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.MuiPickersDay-root {
+	&.highlight {
+		&:not(.MuiPickersDay-dayOutsideMonth) {
+			font-weight: bold;
+
+			&:not(.Mui-selected) {
+				color: #055EA9;
+			}
+		}
+
+		&--red {
+			&:not(.MuiPickersDay-dayOutsideMonth) {
+				&:not(.Mui-selected) {
+					color: #cc2027;
+				}
+			}
+		}
+	}
+}
+
+.row {
+	display: flex;
+	row-gap: 16px;
+	column-gap: 16px;
+	flex-wrap: wrap;
+}
+
+.align-center {
+	display: block !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.readonly {
+	color: #787878;
+}
+
+.modal-form {
+	width: 924px
+}
+
+.multiline-text {
+	border-radius: 8px;
+	background-color: rgba(239, 239, 239, 0.24);
+	min-height: 90px;
+	padding: 10px 10px 16px;
+	white-space: pre-wrap;
+}
+
+@media (min-width: 600px) {
+	.MuiToolbar-regular {
+		min-height: 72px !important;
+	}
+}
+
+.logo-SAJ {
+	color: #231f20;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	font-family: "CoHeadline";
+	transform: translate(130px, 6px) scale(.8);
+
+	h2 {
+		margin-bottom: 0;
+		background-color: rgb(43 56 144);
+		color: white;
+		border-radius: 7px;
+		width: 52px;
+		transform: translate(52px, 1px) scale(1.7);
+		font-size: 1.3em !important;
+		padding-bottom: 0.1rem;
+	}
+
+	h5 {
+		margin-top: 0;
+		transform: scale(1.2) translate(0px, 12px);
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+.environmentBox {
+	position: absolute;
+	z-index: 9999;
+	transform: translate(calc(50vw - 50px), -17px);
+	div{
+		transform: scale(.7);
+		color: rgb(226, 228, 240);
+		background-color: rgb(43, 56, 144);
+		padding: 23px;
+		border-radius: 27px;
+		h3 {
+			margin: 0px;
+			font-size: 29px;
+		}
+	}
+}

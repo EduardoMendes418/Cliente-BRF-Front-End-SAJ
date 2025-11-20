@@ -1,0 +1,92 @@
+{
+	"title": "Requisições",
+	"filter": "Buscar requisição",
+	"buttonNew": "Nova requisição",
+	"requestNumber": "Número da solicitação",
+	"requestDate": "Data solicitação",
+	"CTGFolder": "Pasta / CTG",
+	"list": {
+		"title": "Requisições",
+		"requestType": "Tipo da requisição",
+		"responsibleName": "Responsável atendimento",
+		"expectedServiceDate": "Data prevista do atendimento",
+		"endDate": "Data de conclusão",
+		"dejurArea": "Área DEJUR",
+		"CTGFolder": "Pasta / CTG",
+		"status": "status",
+		"team": "Equipe de atendimento",
+		"requester": "Solicitante",
+		"id": "Id",
+		"serviceUserName": "Atendente"
+	},
+	"form": {
+		"requester": "Solicitante",
+		"disapprovalReason": "Motivo reprovação",
+		"justificationDisapproval": "Justificativa reprovação",
+		"requestDateBegin": "Data solicitação de",
+		"requestDateEnd": "Data solicitação até",
+		"title": "Requisições",
+		"requisitionData": "Dados da requisição",
+		"newRequisition": "Nova requisição",
+		"status": "Status",
+		"requisitionType": "Tipo da requisição",
+		"requisitionDate": "Data solicitação",
+		"expectedServiceDate": "Data prevista do atendimento",
+		"expectedServiceDateRequired": "Escolha uma data prevista para o atendimento da requisição",
+		"description": "Descrição",
+		"responsibleName": "Atendente",
+		"serviceUserName": "Nome responsável",
+		"serviceResponsible": "Responsável atendimento",
+		"attendanceDeadline": "Prazo do atendimento",
+		"emailsWithInternalCopies": "E-mails com cópia(internos)",
+		"emailsWithExternallCopies": "E-mails com cópia(externos)",
+		"emailsHelperText": "Digite vários e-mails separados por ponto-e-vírgula (;) e sem espaços",
+		"emailsPlaceholder": "Digite os e-mails...",
+		"forwardAttachmentEmail": "Encaminhar anexo no e-mail",
+		"forwardAtachmentEmailHelperText": "Não pode exceder o limite de 10mb",
+		"informResult": "Informar resultado",
+		"CTGFolder": "Dados da Pasta/CTG",
+		"CTGFolderAlreadyRegistered": "Pasta/CTG já adicionada",
+		"folderRequired": "Pasta obrigatória",
+		"dejurArea": "Área DEJUR",
+		"endDate": "Data de conclusão",
+		"cancelRequest": "Cancelar solicitação"
+	},
+	"validations": {
+		"folderNumber": "Preencha o campo para realizar a busca",
+		"birthDate": "Data de nascimento não pode ser data futura",
+		"paymentFinishDate": "Data final não pode ser menor que a data inicial"
+	},
+	"batch": {
+		"title": "Lotes de requisições",
+		"filter": "Buscar lote requisição",
+		"batchId": "ID lote requisição",
+		"list": {
+			"title": "Lotes"
+		},
+		"form": {
+			"newBatchRequisition": "Novo lote requisição",
+			"modalErrorText": "Insira um arquivo de formato CSV com apenas uma coluna contendo os números das pastas CTG.",
+			"CTGFolders": "Pastas / CTG",
+			"CTGFoldersImported": "Pastas CTG importadas"
+		}
+	},
+	"service": {
+		"title": "Atendimento",
+		"conclusionDate": "Data de conclusão",
+		"observation": "Parecer/Observação",
+		"isAttachmentLegalOne": "Integra anexo Legal One",
+		"sapActiveCostCenter": "Centro de custos ativo no SAP",
+		"complainant": "Reclamante é terceiro?",
+		"cpf": "CPF",
+		"dateOfBirth": "Data de nascimento",
+		"dateOfAdmission": "Data de admissão",
+		"dateOfDismissal": "Data de demissão",
+		"position": "Cargo/Função",
+		"salary": "Salário",
+		"ctpsNumber": "Nº CTPS",
+		"seriesNumber": "Nº Série",
+		"pisPasep": "PIS/PASEP",
+		"sapActiveCostCenterDescription": "Favor verificar se o último centro de custos do colaborador está ativo no SAP! Se o centro de custos não estiver ativo, favor abrir uma requisição de manutenção."
+	}
+}

@@ -1,0 +1,34 @@
+$amounts: (4, 8, 16, 24, 32, 40, 48, 56, 62, auto);
+$sides: (top, right, bottom, left);
+
+@each $space in $amounts {
+	@each $side in $sides {
+		@if $space == auto {
+			.margin-#{$side}-#{$space} {
+				margin-#{$side}: #{$space} !important;
+			}
+
+			.padding-#{$side}-#{$space} {
+				padding-#{$side}: #{$space} !important;
+			}
+		} @else {
+			.margin-#{$side}-#{$space} {
+				margin-#{$side}: #{$space}px !important;
+			}
+
+			.padding-#{$side}-#{$space} {
+				padding-#{$side}: #{$space}px !important;
+			}
+		}
+	}
+}
+
+@each $space in $amounts {
+	.margin-#{$space} {
+		margin: #{$space}px !important;
+	}
+
+	.padding-#{$space} {
+		padding: #{$space}px !important;
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"request": {
+		"menuTitle": "Solicitar pensão",
+		"title": "Solicitar provisão de pensão",
+		"filter": "Buscar solicitação",
+		"buttonNew": "Nova solicitação",
+		"requestNumber": "Número da solicitação",
+		"requestDate": "Data da solicitação",
+		"nameOppositeParty": "Nome parte contrária",
+		"list": {
+			"title": "Listagem de solicitação"
+		},
+		"form": {
+			"title": "Solicitar provisão de pensão",
+			"status": "Status",
+			"judicialPensionStatus": "Status pensão judicial",
+			"dismissalReason": "Motivo de baixa",
+			"dismissalDate": "Data da baixa",
+			"dismissalReasonJustification": "Justificativa do motivo da baixa",
+			"location": "Localidade",
+			"processKey": "Chave do processo",
+			"opposingPartyName": "Nome da parte contrária",
+			"gender": "Sexo",
+			"pensionData": "Dados da pensão",
+			"pensionCategory": "Categoria da pensão",
+			"reviewAction": "Ação revisional",
+			"correctionForm": "Forma de correção",
+			"correctionBaseDate": "Data base correção",
+			"decision": "Decisão",
+			"pensionPaymentStartDate": "Data início pagamento pensão",
+			"pensionPaymentEndDate": "Data fim pagamento pensão",
+			"monthlyPensionAmount": "Valor da pensão mensal",
+			"numberOfPensionInstallments": "Quantidade de parcelas total",
+			"numberOfPensionInstallmentLeft": "Quantidade de parcelas restantes",
+			"FGTSPayment": "Pagamento de FGTS",
+			"FGTSPensionAmount": "Valor pensão FGTS",
+			"FGTSLinkedAccount": "FGTS conta vinculada",
+			"vacationPayment": "Pagamento de férias",
+			"vacationPensionAmount": "Valor pensão de férias",
+			"paymentOf13thSalary": "Pagamento de 13° salário",
+			"pensionAmount13thSalary": "Valor pensão 13° salário",
+			"shortTermValue": "Valor curto prazo",
+			"longTermValue": "Valor longo prazo",
+			"flowId": "Etapa",
+			"requestStatus": "Status",
+			"name": "Nome"
+		},
+		"payments": {
+			"SAPDateProvision": "Data SAP provisão",
+			"SAPDocumentNumberProvision": "N° documento SAP provisão",
+			"SAPProvisionedAmount": "Valor provisionado SAP",
+			"paymentPeriod": "Período de pagamento"
+		},
+		"validations": {
+			"folderNumber": "Preencha o campo para realizar a busca",
+			"birthDate": "Data de nascimento não pode ser data futura",
+			"paymentFinishDate": "Data final não pode ser menor que a data inicial"
+		},
+		"configurations": {
+			"formsOfCorrection": "Formas de correção",
+			"formOfCorrection": "Forma de correção",
+			"successAddMessage": "Forma de correção adicionada com sucesso!",
+			"successEditMessage": "Forma de correção editada com sucesso!",
+			"successDeleteMessage": "Forma de correção deletada com sucesso!"
+		}
+	},
+	"interestUpdate": {
+		"title": "Atualização de juros",
+		"process": "Processar",
+		"field": {
+			"requestId": "ID da solicitação de pensão"
+		}
+	},
+	"pensionsRequestManagement": {
+		"title": "Gestão solicitação pensão"
+	},
+	"avaliation": "Avaliação",
+	"judicialControl": {
+		"title": "Validação controle juridico",
+		"avaliation": "Avaliação controle juridico"
+	},
+	"internalLawyer": {
+		"title": "Aprovação advogado interno",
+		"avaliation": "Aprovação advogado interno"
+	}
+}

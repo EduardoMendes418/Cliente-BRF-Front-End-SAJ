@@ -1,0 +1,33 @@
+{
+	"page": "Fiscalização",
+	"formaPagamento_plural": "Formas de pagamento de fiscalização",
+	"formaPagamento_search": "Buscar forma de pagamento de fiscalização",
+	"formaPagamento_registration": "Cadastro de forma de pagamento de fiscalização",
+	"formaPagamento_edit": "Editar forma de pagamento de fiscalização",
+	"tipoPagamento_plural": "Tipos de pagamento de fiscalização",
+	"tipoPagamento_search": "Buscar tipos de pagamento de fiscalização",
+	"tipoPagamento_registration": "Cadastro de tipo de pagamento de fiscalização",
+	"tipoPagamento_edit": "Editar tipo de pagamento de fiscalização",
+	"form": {
+		"type": "Tipos de pagamento",
+		"method": "Forma de pagamento",
+		"status": "Status",
+		"approval": "Tipo de processo de aprovação",
+		"paymentSAP": "Contabilizar pagamento SAP",
+		"pastaCtgObrigatoria": "Pasta/CTG obrigatória?",
+		"id": "Id",
+		"dadosPagamento": {
+			"advogadoInternoId": "Id Advogado Interno",
+			"advogadoInterno": "Advogado Interno",
+			"favorecido": "Favorecido"
+		}
+	},
+	"resquest": {
+		"bank": "Banco",
+		"valorTotal": "Valor pagamento",
+		"valorTotalGuia": "Valor total da guia", 
+		"filter": "Filtro",
+		"paymentAmount": "Valor pagamento",
+		"requestStatus": "Status da solicitação"
+	}
+}

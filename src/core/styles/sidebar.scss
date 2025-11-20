@@ -1,0 +1,52 @@
+.sidebar {
+	.MuiMenuItem-root {
+		color: #8d9091 !important;
+		font-weight: bold;
+
+		&.menuItem {
+			font-size: 18pt !important;
+			&:hover {
+				background-color: #2c3890 !important;
+				color: #fff !important;
+			}
+
+			.MuiListItemIcon-root {
+				color: inherit;
+			}
+
+			.MuiListItemText-root {
+				.MuiTypography-body1{
+					font-size: 16px !important;
+				}
+			}
+
+			&.Mui-selected {
+				background-color: #2c3890 !important;
+				color: #fff !important;
+			}
+		}
+
+		&.menuSubItem {
+			padding-left: 72px !important;
+			.dot {
+				flex: none;
+				padding-right: 16px;
+			}
+
+			&:hover {
+				background-color: #fff;
+				color:#2c3890 !important;
+			}
+
+			.MuiListItemIcon-root {
+				color: inherit;
+			}
+
+			&.Mui-selected {
+				background-color: #fff;
+				color: #2c3890 !important;
+			}
+		}
+
+	}
+}

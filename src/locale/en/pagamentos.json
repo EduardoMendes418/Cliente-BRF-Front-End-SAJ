@@ -1,0 +1,39 @@
+{
+	"formaPagamento": "Payment method",
+	"formaPagamento_plural": "Payment methods",
+	"tipoPagamento": "Type of payment",
+	"tipoPagamento_plural": "Types of payment",
+	"tipoPagamentoForm": {
+		"simParcial": "Yes - Partial",
+		"simTotal": "Yes - Total",
+		"gerarWorkflowAprovacao": "Generate approval workflow",
+		"solicitarPagamentoBaixaProvisoria": "Request payment in provisional discharge status",
+		"cancelamentoAutomatico": "Enable automatic cancellation",
+		"abaterSaldoProvisao": "Deduct balance provision",
+		"gerarBensGarantias": "Generate assets/guarantees",
+		"alterarStatusProcesso": "Update process status",
+		"generateGuidesFiles": "Gerar Guias/Arquivos",
+		"gerarCalculoPagamento": "Generate payment calculation",
+		"contabilizarPagamentoSap": "Account for payment in SAP",
+		"contabilizarCreditoSap": "Account for credit in SAP",
+		"importarDados": "Import data (court account/policies)",
+		"disponibilizarComprovantePagamento": "Provide proof of payment/other documents",
+		"contabilizarCcPorAreaDejur": "Account CC por DEJUR area"
+	},
+	"prazoDiasFinanceiro": "Financial deadline (days)",
+	"relacaoTipoXFormaPagamento": "Type of Payment X Payment method relation",
+	"tipoXFormaPagamento": {
+		"titulo": "Type of Payment X Payment method",
+		"novoVinculo": "New relation",
+		"formularioVinculado": "Linked form",
+		"visualizarForm": "Preview form",
+		"visualizacaoFormulario": "Form preview"
+	},
+	"paymentCode": {
+		"title": "Payment Code",
+		"labelInssGps": "INSS/GPS Payment Code",
+		"labelDarf": "Recipe Code (DARF)",
+		"labelGpsIdentifier": "GPS Identifier Code",
+		"labelDarfCpfCnpj": "CPF / CNPJ DARF number"
+	}
+}

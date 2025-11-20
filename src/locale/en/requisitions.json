@@ -1,0 +1,61 @@
+{
+	"title": "Requests",
+	"filter": "Search request",
+	"buttonNew": "New request",
+	"requestNumber": "Request number",
+	"requestDate": "Request date",
+	"CTGFolder": "Pasta / CTG",
+	"list": {
+		"title": "Request listing",
+		"requestType": "Request Type",
+		"responsibleName": "Service Responsible",
+		"expectedServiceDate": "Expected Service Date",
+		"endDate": "End Date",
+		"dejurArea": "Dejur Area",
+		"CTGFolder": "Pasta / CTG",
+		"status": "status"
+	},
+	"form": {
+		"title": "Request pension",
+		"requisitionData": "Request Data",
+		"status": "Status",
+		"newRequisition": "New Request",
+		"requisitionType": "Request Type",
+		"requisitionDate": "Request Date",
+		"expectedServiceDate": "Expected Service Date",
+		"description": "Description",
+		"responsibleName": "Responsible Name",
+		"serviceResponsible": "Service Responsible",
+		"attendanceDeadline": "Attendance Deadline",
+		"indicateResponsibleProgress": "Indicate Responsible Progress",
+		"emailsWithInternalCopies": "E-mails With Internal Copies",
+		"emailsWithExternallCopies": "E-mails With Externall Copies",
+		"emailsHelperText": "Enter multiple emails separated by a semicolon (;)",
+		"emailsPlaceholder": "Type the e-mails...",
+		"forwardAttachmentEmail": "Forward Attachment in the e-mail",
+		"forwardAtachmentEmailHelperText": "Cannot exceed the 10mb limit",
+		"informResult": "Inform Result",
+		"CTGFolder": "Folder/CTG Data",
+		"CTGFolderAlreadyRegistered": "Pasta/CTG already registered"
+	},
+	"validations": {
+		"folderNumber": "Fill in the field to perform the search",
+		"birthDate": "Date of birth cannot be a future date",
+		"paymentFinishDate": "End date cannot be less than start date"
+	},
+	"batch": {
+		"title": "Batches",
+		"filter": "Search Batch",
+		"batchId": "Batch ID",
+		"list": {
+			"title": "Batches"
+		},
+		"form": {
+			"newBatchRequisition": "New Batch Request",
+			"modalErrorTitle": "Invalid Format File",
+			"modalErrorText": "Insert a CSV file containing only a column with the folder numbers",
+			"CTGFolders": "Folders / CTG",
+			"CTGFoldersImported": "CTG folders imported"
+		}
+	}
+}

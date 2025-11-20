@@ -1,0 +1,128 @@
+{
+	"title": "eSocial",
+	"event": {
+		"title": "Evento"
+	},
+	"group": {
+		"title": "Grupo"
+	},
+	"dejurZone": {
+		"title": "Área Dejur do eSocial",
+		"editTitle": "Editar Área Dejur do eSocial",
+		"form": {
+			"title": "Cadastrar Área Dejur do eSocial"
+		}
+	},
+	"eSocialTables": {
+		"title": "Tabelas do eSocial",
+		"filter": {
+			"eSocialTableNumber": "Número tabela eSocial",
+			"description": "Descrição"
+		},
+		"form": {
+			"title": "Cadastrar tabela do eSocial",
+			"eSocialTableNumber": "Número tabela eSocial",
+			"description": "Descrição"
+		},
+		"searchTitle": "Buscar tabelas do eSocial",
+		"editTitle": "Editar tabela do eSocial"
+	},
+	"eSocialEvent": {
+		"title": "Evento do eSocial",
+		"form": {
+			"title": "Cadastrar evento do eSocial"
+		},
+		"searchTitle": "Buscar evento do eSocial",
+		"editTitle": "Editar evento do eSocial"
+	},
+	"eSocialFormData": {
+		"title": "Dados do eSocial",
+		"agreementApprovalDate": "Data da decisão/acordo",
+		"remunerationAmount": "Verba remuneratória",
+		"compensationAmount": "Verba indenizatória",
+		"FGTS": "FGTS reflexos",
+		"CPRB": "CPRB",
+		"eSocialStartDate": "Data inicio para cálculo eSocial",
+		"eSocialEndDate": "Data fim para cálculo eSocial",
+		"employmentContractType": "Tipo de contrato de trabalho",
+		"eSocialEvent": "Evento eSocial",
+		"complianceAttachment": "Compliance – Solicitação E-Social (Cálculo em PDF e Decisão/homologação conversão depósito e pagamento do valor líquido ao reclamante)",
+		"observation": "Observação"
+	},
+	"eSocialGroup": {
+		"title": "Grupo do eSocial",
+		"form": {
+			"title": "Cadastrar Grupo do eSocial"
+		},
+		"searchTitle": "Buscar Grupo do eSocial",
+		"editTitle": "Editar Grupo do eSocial"
+	},
+	"eSocialTablesRegistration": {
+		"title": "Cadastros tabelas do eSocial",
+		"form": {
+			"title": "Cadastrar tabelas do eSocial"
+		},
+		"filter": {
+			"code": "Código",
+			"description": "Descrição",
+			"eSocialTableDescription": "Descrição tabela eSocial",
+			"eSocialTableId": "Número tabela eSocial"
+		},
+		"searchTitle": "Buscar cadastros de tabelas do eSocial",
+		"editTitle": "Editar cadastro de tabelas do eSocial"
+	},
+	"workerCategory": {
+		"title": "Categoria do trabalhador",
+		"filter": {
+			"eSocialTableDescription": "Descrição tabela eSocial",
+			"code": "Código",
+			"description": "Descrição",
+			"eSocialGroupDescription": "Descrição grupo"
+		},
+		"form": {
+			"title": "Cadastrar categoria do trabalhador"
+		},
+		"searchTitle": "Buscar categorias do trabalhador",
+		"editTitle": "Editar categoria do trabalhador"
+	},
+	"reasonsForDismissal": {
+		"title": "Motivos de desligamento",
+		"filter": {
+			"eSocialTableId": "Id tabela eSocial",
+			"code": "Código",
+			"description": "Descrição",
+			"startDate": "Data início",
+			"endDate": "Data término",
+			"categoryCodeId": "Id código categoria",
+			"categoryCode": "Código da categoria"
+		},
+		"form": {
+			"title": "Cadastrar motivo de desligamento"
+		},
+		"searchTitle": "Buscar motivos de desligamento",
+		"editTitle": "Editar motivo de desligamento"
+	},
+	"validation": {
+		"indRetif": "Tipo Evento",
+		"tpAmb": "Identificação do ambiente",
+		"procEmi": "Processo de emissão do evento",
+		"nrInsc": "Número da inscrição do advogado / Sociedade de advogados",
+		"verProc": "Versão do processo de emissão do evento",
+		"origem": "Origem do processo / Demanda",
+		"nrProcTrab": "Número do processo trabalhista, da ata ou número de identificação da conciliação",
+		"obsProcTrab": "Informações complementares do processo ou da demanda.",
+		"cpfTrab": "Número do CPF do trabalhador",
+		"dependente": "Dependentes",
+		"infoContr": "Contratos de trabalhos",
+		"calcTrib": "Informação do trabalhador",
+		"tpInsc": "Tipo de inscrição do advogado / Sociedade de advogados",
+		"tpEvento": "Preencher com o tipo de evento (S-2500 ou S-2501)",
+		"nrRecEvt": "Preencher com o número do recibo do evento que será excluído",
+		"errorTypes": {
+			"required": "é necessário.",
+			"size": "tem um tamanho inválido. Os tamanhos válidos são {sizes}",
+			"stringRange": "deve ter entre {min} e {max} caracteres",
+			"arrayRange": "deve ter entre {min} e {max} itens"
+		}
+	}
+}

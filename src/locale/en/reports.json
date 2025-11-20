@@ -1,0 +1,28 @@
+{
+	"title": "Reports",
+	"reportFilter": "Report Filters",
+	"filterName": "Filter Name",
+	"userName": "User",
+	"modal": {
+		"title": "Custom Fields"
+	},
+	"payment": {
+		"title": "Payments",
+		"form": {
+			"title": "Payment Filter",
+			"dataSolicitacaoInitial": "Request date(from)",
+			"dataSolicitacaoFinal": "Request date(to)",
+			"terminationDateInitial": "Due date(from)",
+			"terminationDateFinal": "Due date(to)",
+			"receiptDateInitial": "Receipt date(from)",
+			"receiptDateFinal": "Receipt date(to)",
+			"periodoApuracao": "Período de apuração",
+			"tipoPagamentoId": "Payment Type",
+			"formaPagamentoId": "Payment Form",
+			"favorecido": "Favored",
+			"cliFor": "CLIFOR",
+			"bancoId": "Bank",
+			"judicialAccountNumber": "Judicial Account Number"
+		}
+	}
+}

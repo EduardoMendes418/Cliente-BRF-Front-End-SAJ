@@ -1,0 +1,340 @@
+{
+	"title": "Documentos legais",
+	"buttonNew": "Novo documento legal",
+	"noteLabel": "Nota informativa",
+	"userInfo": {
+		"title": "Dados do solicitante",
+		"id": "Usuário / ID",
+		"name": "Solicitante",
+		"cargo": "Cargo",
+		"phone": "Telefone",
+		"email": "Email",
+		"departament": "Diretoria / gerência"
+	},
+	"information": "Informação ao Usuário",
+	"cancel": "Motivo do cancelamento",
+	"coverage": {
+		"title": "Abrangência",
+		"listTitle": "Listagem de abrangência",
+		"field": {
+			"coverage": "Abrangência",
+			"status": "Status"
+		}
+	},
+	"status": {
+		"title": "Status",
+		"listTitle": "Listagem de status",
+		"formTitle": "Cadastro de status",
+		"field": {
+			"status": "Status"
+		}
+	},
+	"request": {
+		"title": "Solicitar documentos legais",
+		"actions": "Ações",
+		"requestNumber": "Número da solicitação",
+		"date": "Data",
+		"requestType": "Tipo da solicitação",
+		"dejurArea": "Área DEJUR",
+		"coverage": "Abrangência",
+		"CTGFolder": "Pasta CTG",
+		"status": "Status",
+		"search": {
+			"date": {
+				"from": "Data solicitação (de)",
+				"to": "Até"
+			},
+			"dateRequest": "Data da solicitação",
+			"hourRequest": "Hora da solicitação",
+			"requestNumber": "Número da solicitação",
+			"requester": "Solicitante",
+			"dejurArea": "Área DEJUR",
+			"CTGFolder": "Pasta CTG",
+			"CTGFolders": "Pastas CTGs",
+			"processNumber": "Número do processo",
+			"requestType": "Tipo da solicitação",
+			"coverage": "Abrangência",
+			"status": "Status da solicitação",
+			"internLawyer": "Advogado Interno",
+			"legalOfficer": "Responsável jurídico",
+			"office": "Escritório",
+			"attendant": "Atendente",
+			"termOfService": {
+				"from": "Prazo atendimento (de)",
+				"to": "Até"
+			},
+			"seviceDate": "Data de atendimento"
+		},
+		"placeholder": {
+			"select": "Selecione"
+		},
+		"coverageOpt": {
+			"generic": "Genérica",
+			"specific": "Específica"
+		},
+		"signatureType": {
+			"title": "Tipo da assinatura",
+			"eletronic": "Eletrônica",
+			"manual": "Manual"
+		},
+		"process": {
+			"area": "Área DEJUR",
+			"contingency": "Tipo de contigência",
+			"folderNumber": "Pasta CTG",
+			"processNumber": "Número do processo",
+			"sphere": "Esfera",
+			"opposingPart": "Parte contrária",
+			"company": "Empresa",
+			"internalLawyer": "Advogado Interno",
+			"agent": "Preposto",
+			"responsibleOoffice": "Responsável do Escritório",
+			"office": "Escritório",
+			"courtPanelDescription": "Vara",
+			"actionType": "Tipo de ação",
+			"comarca": "Comarca",
+			"responsibleInternalLawyer": "Responsável jurídico"
+		}
+	},
+	"list": "Listagem de documentos legais",
+	"requestStatus": {
+		"allRequestLegalDocuments": "Todos",
+		"cancelled": "Cancelado",
+		"returnedService": "Devolvido Atendimento",
+		"inSignature": "Em Assinatura",
+		"inTreatment": "Em Atendimento",
+		"finished": "Finalizado",
+		"informationPending": "Pendência de Informação",
+		"disapproved": "Reprovado",
+		"requested": "Solicitado",
+		"legalValidation": "Validação Jurídico"
+	},
+	"requestTypesList": {
+		"prepositionLetter": "Carta Preposição",
+		"replacement": "Substabelecimento",
+		"electronicPowerOfAttorney": {
+			"legal": "Procuração Eletrônica - Jurídico",
+			"otherAreas": "Procuração Eletrônica - Demais Áreas"
+		}
+	},
+	"powerTypes": {
+		"title": "Tipo de poderes",
+		"listTitle": "Listagem de tipo de poderes",
+		"formTitle": "Cadastro de tipo de poderes",
+		"field": {
+			"powerTypes": "Tipo de poderes",
+			"status": "Status"
+		}
+	},
+	"serviceOpinion": {
+		"title": "Parecer do atendimento",
+		"listTitle": "Listagem de tipo de parecer",
+		"formTitle": "Parecer do atendimento",
+		"field": {
+			"description": "Descrição",
+			"serviceOpinion": "Tipo do parecer",
+			"status": "Status"
+		}
+	},
+	"draftTypes": {
+		"title": "Tipo de minuta",
+		"listTitle": "Listagem de tipo de minuta",
+		"formTitle": "Cadastro de tipo de minuta",
+		"field": {
+			"block": "Bloco",
+			"blockDescription": "Descrição do bloco",
+			"draftType": "Tipo de minuta",
+			"field": "Campo",
+			"formType": "Tipo de formulário",
+			"status": "Status",
+			"table": "Tabela",
+			"variable": "Variável",
+			"variables": "Variáveis"
+		},
+		"section": {
+			"blocksList": "Listagem de blocos da minuta",
+			"draftBlocks": "Blocos da minuta",
+			"variables": "Variáveis",
+			"variableList": "Listagem de variáveis"
+		}
+	},
+	"requestTypes": {
+		"title": "Tipo de solicitação",
+		"listTitle": "Listagem tipo de solicitação",
+		"formTitle": "Cadastro do tipo de solicitação",
+		"button": {
+			"infoToUser": "Informação ao usuário",
+			"importDraft": "Importar minuta",
+			"importNewDraft": "Importar nova minuta"
+		},
+		"field": {
+			"autoDisapprove": "Reprovação automática",
+			"countDeadline": "Contar prazo",
+			"draftType": "Tipo de minuta",
+			"docuSignKey": "Chave DocuSign",
+			"form": "Formulário",
+			"helpRequest": "Help da solicitação",
+			"hours": "Horas",
+			"informativeNote": "Nota informativa",
+			"requiredAttachment": "Anexo obrigatório",
+			"requiredCTGFolder": "Pasta CTG obrigatória",
+			"responsibleName": "Nome do responsável",
+			"requestType": "Tipo de solicitação",
+			"status": "Status",
+			"withDeadline": "Com prazo?"
+		},
+		"section": {
+			"editDraft": "Editar minuta",
+			"deadline": "Prazo",
+			"draft": "Minuta",
+			"infoToUser": "Informação ao usuário",
+			"responsible": "Responsável"
+		}
+	},
+	"preposition": {
+		"title": "Tipo solicitação - Carta preposição",
+		"coverage": "Abrangência",
+		"area":"Área DEJUR*",
+		"folderNumber": "Pasta CTG*",
+		"processNumber": "Número do processo",
+		"observation": "Observação",
+		"noteLabel": "Nota informativa",
+		"note": "ATENÇÃO: a ausência ou inconsistência em qualquer informação necessária implicará na reprovação da solicitação"
+	},
+	"company": {
+		"title": "Dados da empresa",
+		"corporateName": "Razão social",
+		"cnpj": "CNPJ",
+		"address": "Endereço",
+		"number": "Número",
+		"district": "Bairro",
+		"city": "Cidade",
+		"state": "Estado",
+		"cep": "CEP"
+	},
+	"nominated": {
+		"title": "Nomeados",
+		"cpf": "CPF",
+		"rg": "RG / Orgão emissor / UF",
+		"name": "Nome completo",
+		"initials": "Sigla / ID",
+		"office": "Cargo",
+		"address": "Endereço",
+		"number": "Número",
+		"district": "Bairro",
+		"city": "Cidade",
+		"state": "Estado",
+		"cep": "CEP"
+	},
+	"process": {
+		"title": "Dados do processo",
+		"processNumber":"Número do processo",
+		"vara": "Vara",
+		"observation": "Observação",
+		"comarca": "Comarca",
+		"action": "Tipo de ação",
+		"justify": "Justificativa",
+		"powers": "Poderes"
+	},
+	"replacement": {
+		"title": "Tipo solicitação - Substabelecimento",
+		"coverage": "Abrangência",
+		"area":"Área DEJUR*",
+		"folderNumber": "Pasta CTG*",
+		"grants": "Outorga",
+		"observation": "Observação"
+	},
+	"substabelecimento": {
+		"title": "Substabelecimento",
+		"cpf": "CPF",
+		"rg": "RG / Orgão emissor / UF",
+		"name": "Nome completo",
+		"oab": "OAB/UF",
+		"oabNumber": "Número OAB / UF escritório",
+		"corporateName": "Razão social do escritório",
+		"office": "Cargo",
+		"address": "Endereço",
+		"number": "Número",
+		"district": "Bairro",
+		"city": "Cidade",
+		"state": "Estado",
+		"cep": "CEP"
+	},
+	"correspondents": {
+		"title": "Correspondentes",
+		"cpf": "CPF",
+		"rg": "RG / Orgão emissor / UF",
+		"name": "Nome completo",
+		"oab": "OAB/UF",
+		"rgOab": "RG/OAB",
+		"oabNumber": "Número OAB / UF escritório",
+		"corporateName": "Razão social do escritório",
+		"office": "Cargo",
+		"address": "Endereço",
+		"number": "Número",
+		"district": "Bairro",
+		"city": "Cidade",
+		"state": "Estado",
+		"cep": "CEP"
+	},
+	"grantor": {
+		"title": "Grantor",
+		"company": "Empresa",
+		"cnpj": "CNPJ"
+	},
+	"eletronicProcurationLegal": {
+		"title": "Tipo de solicitação - Procuração eletrônica - Jurídico",
+		"publicAgency": "Orgão público",
+		"processNumber": "Número do processo",
+		"folderNumber":"Pasta CTG",
+		"observation": "Observação"
+	},
+	"eletronicProcurationOtherAreas": {
+		"title": "Tipo de solicitação - Procuração eletrônica - Demais áreas",
+		"orgao": "Orgão público",
+		"processNumber": "Número do processo",
+		"letterOfAttorney": "Há procuração fisica emitida pelo juridico?",
+		"observation": "Observação"
+	},
+	"bestowed": {
+		"title": "Dados do outorgado",
+		"kindOfPerson": {
+			"title": "Tipo de pessoa",
+			"judicial": "Jurídica",
+			"fisica": "Física"
+		},
+		"cpfCnpj": "CPF / CNPJ",
+		"name": "Nome do outorgado",
+		"brfEmployee": "Funcionário BRF",
+		"nameOffice": "Nome do escritório parceiro",
+		"vigenciaStart": "Vigência (de)",
+		"vigenciaEnd": "Até",
+		"justify": "Justificativa",
+		"powers": "Poderes"
+	},
+	"smartSwap": {
+		"title": "Troca inteligente",
+		"filter": "Filtro troca inteligente",
+		"edit": "Opções de alteração",
+		"list": "Listagem de dados geradas pelo filtro",
+		"requestDateStart": "Data da Solicitação (de)",
+		"requestDate": "Data da Solicitação",
+		"ate": "Até",
+		"id": "Número da Solicitação",
+		"solicitation": "Solicitação",
+		"requestUserName": "Solicitante",
+		"dejurAreaId": "Area DEJUR",
+		"folderNumber": "Pasta CTG",
+		"processNumber":"Número do processo",
+		"requestStatus": "Status da Solicitação",
+		"status":"Status",
+		"coverageId": "Abrangência",
+		"internalLawyerId": "Advogado Interno",
+		"legalResponsibleId": "Responsável Jurídico",
+		"office": "Escritório",
+		"serviceUserId": "Atendente",
+		"expectedServiceDateStart": "Prazo de Atendimento (de)",
+		"legalDocumentRequestTypeId": "Tipo de Solicitação",
+		"generateList": "Gerar Listagem",
+		"execute": "Executar"
+	}
+}

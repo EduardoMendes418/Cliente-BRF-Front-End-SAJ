@@ -1,0 +1,11 @@
+{
+	"title": "Approvers registration",
+	"approverID": "Approver ID",
+	"approverName": "ApproverName",
+	"hierarchy": "Hierarchy",
+	"juridicalArea": "Juridical area",
+	"validations": {
+		"juridicalArea": "Please select the juridical area.",
+		"approverID": "Please enter the approver ID."
+	}
+}

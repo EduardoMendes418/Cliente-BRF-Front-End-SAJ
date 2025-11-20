@@ -1,0 +1,22 @@
+{
+	"categoryName": "Integrações",
+	"approvationFlowManagement": "Contabilizações",
+	"integrateRecordsAndContacts": "Integrar Fichas e Contatos",
+	"pageRouterName": "Integrar dados de colaborador e fornecedor",
+	"contribuitorDataIntegration": "Integrar Dados de Colaborador",
+	"request": {
+		"pageName": "Solicitar Integração",
+		"form": {
+			"folderNumbers": "Nº. das pasta/CTG",
+			"cpf": "CPF",
+			"cnpj": "CNPJ",
+			"submitButton": "Enviar",
+			"cleanButton": "Limpar Resultados"
+		},
+		"table": {
+			"tableName": "Resultados da Integração",
+			"cpfCnpj": "CPF/CNPJ",
+			"status": "Status"
+		}
+	}
+}

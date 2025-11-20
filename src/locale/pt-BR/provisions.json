@@ -1,0 +1,234 @@
+{
+	"fields": {
+		"areaDejur": "Área DEJUR",
+		"processN": "Número do processo",
+		"processKey": "Chave do processo",
+		"oposingPart": "Parte contrária",
+		"company": "Empresa",
+		"internalLawyer": "Advogado interno",
+		"agent": "Preposto",
+		"office": "Escritório",
+		"officeResponsible": "Responsável escritório",
+		"costCenterAggr": "Centro de custo agrupador",
+		"status": "Status",
+		"provisionClass": "Classe de provisão",
+		"contingencyType": "Tipo de contigência",
+		"sphere": "Esfera",
+		"requestDescription": "Descrição do pedido",
+		"requestDate": "Data do pedido",
+		"expectation": "Expectativa",
+		"probability": "Probabilidade abertura",
+		"openingDescription": "Descrição da abertura",
+		"forecastValue": "Valor risco/prognóstico",
+		"forecastValueFrom": "Valor risco/prognóstico (de)",
+		"probableValue": "Valor provável",
+		"possibleValue": "Valor possível",
+		"remoteValue": "Valor remoto",
+		"baseDate": "Data base",
+		"baseDateFrom": "Data base (de)",
+		"correctionIndex": "Índice de correção",
+		"originArea": "Área origem",
+		"ctg": "Pasta CTG",
+		"orderDateFrom": "Data do pedido (de)",
+		"to": "até",
+		"compDate": "Dt. compl. cadastro (de)",
+		"statusProcess": "Status do processo",
+		"type": "Tipo",
+		"legalResponsible": "Responsável jurídico",
+		"actionClass": "Classe de ação",
+		"closing": "Fechamento",
+		"costCenter": "Centro de custo agrupador",
+		"sumProvisionTable": "Soma tabela de provisão",
+		"enableDisable": "Ativo/Inativo",
+		"orderRatingsValue": "Valor de Provisão (de)",
+		"speciesCategory": "Categoria/Espécie",
+		"courtPanel": "Vara/Turma",
+		"jurisdiction": "Comarca/Foro"
+	},
+	"request": {
+		"title": "Pedido de provisão",
+		"searchTitle": "Pedido de provisão",
+		"table": {
+			"requestDescription": "Descrição do pedido",
+			"requestDate": "Data do pedido",
+			"expectation": "Expectativa do pedido",
+			"probability": "Probabilidade do pedido",
+			"requestStatus": "Status do pedido",
+			"forecastValue": "Valor do Provável",
+			"riskValue": "Valor do risco/prognóstico",
+			"enableDisable": "Ativo/inativo",
+			"openingDescription": "Descrição da abertura",
+			"probableValue": "Valor provável",
+			"possibleValue": "Valor possível",
+			"remoteValue": "Valor remoto",
+			"baseDate": "Data base",
+			"correctionIndex": "Índice de correção",
+			"gain": "Ganho",
+			"loss": "Perda",
+			"all": "Todas"
+		},
+		"button": {
+			"simulateIndex": "Simular índice",
+			"clearSimulation": "Limpar simulação",
+			"addProvisionRequest": "Adicionar pedido de provisão",
+			"editProvisionRequest": "Salvar pedido de provisão",
+			"sendConfronter": "Enviar para o confrontador"
+		},
+		"errors": {
+			"incompleteValues": "O lançamento deve possuir pelo menos um dos valores provável, possível ou remoto.",
+			"invalidValues": "Valores inválidos",
+			"invalidZeroValues": "Não é possível criar aberturas com valores zerados",
+			"duplicatedDescriptions": "Já existe uma entrada para esta descrição",
+			"attachments": "Os arquivos não puderam ser anexados"
+		},
+		"alert": {
+			"hasPendingDeposite": "Há prestação de contas pendentes para esta pasta CTG",
+			"hasPendingPayments": "Há pagamentos pendentes para esta pasta CTG",
+			"hasBlockAndTransferPending": "Há transferência judicial pendente para esta pasta CTG",
+			"noCTGFolder": "Nenhuma pasta CTG encontrada",
+			"accountingWithError": "Existe contabilização com erro",
+			"noParamsRegistered": "Pasta/CTG não confrontável. Parâmetro da área DEJUR não cadastrado para confrontar.",
+			"processNotWritable": "Pasta/CTG não esta com status ativo e/ou classe de provisão igual a 'CLÁSSICO'",
+			"pendingConfronter": "Pasta/CTG com pendência no confrontador"
+		},
+		"processDataSheet": "Dados da ficha do processo",
+		"requestListTitle": "Lista de pedidos",
+		"valuesTableTitle": "Tabela de valores totais",
+		"provisionRequestTitle": "Pedidos de provisão",
+		"requestAttachments": "Anexos do pedido",
+		"openingReleaseTitle": "Lançamento de aberturas",
+		"openingListTitle": "Lista de aberturas",
+		"confirmToggle": "Você alterou este item, se desativa-lo irá perder as alterações.\nTem certeza que deseja continuar?"
+	},
+	"updateValues": {
+		"title": "Atualização de valores",
+		"errors": "Listagem de Pastas/CTG",
+		"button": {
+			"process": "Processar"
+		},
+		"fileSuccess": "Sucesso na atualização de Juros"
+	},
+	"orderDescription": {
+		"title": "Descrição do Pedido",
+		"listTitle": "Listagem de descrição de pedidos",
+		"formTitle": "Cadastro de descrição de pedidos",
+		"status": "Status",
+		"save": "Cadastrar",
+		"searchTitle": "Buscar descrição de pedidos",
+		"new": "Cadastrar",
+		"areaDejur": "Área DEJUR",
+		"orderName": "Nome do pedido",
+		"sumProvision": "Soma tabela provisão",
+		"id":"Id"
+	},
+	"orderRatingDescription": {
+		"title": "Descrição de Abertura",
+		"listTitle": "Listagem de descrição de aberturas",
+		"formTitle": "Cadastro de descrição de abertura",
+		"status": "Status",
+		"save": "Cadastrar",
+		"new": "Cadastrar",
+		"orderById": "Ordem GRID",
+		"id":"Id"
+	},
+	"orderProbability": {
+		"title": "Probalilidade de Provisão",
+		"listTitle": "Listagem de probabilidade de provisão",
+		"status": "Status",
+		"save": "Cadastrar",
+		"new": "Cadastrar",
+		"accountFor": "Contabilizar",
+		"orderById": "Ordem GRID",
+		"id":"Id"
+	},
+	"orderExpectation": {
+		"title": "Expectativa de Provisão",
+		"listTitle": "Listagem de expectativa de provisão",
+		"status": "Status",
+		"save": "Cadastrar",
+		"new": "Cadastrar",
+		"provision": "Provisionar",
+		"id":"Id"
+	},
+	"orderStatus": {
+		"title": "Status",
+		"listTitle": "Listar status de provisão",
+		"status": "Status",
+		"statusField": "Descrição de status",
+		"save": "Cadastrar",
+		"new": "Cadastrar",
+		"id":"Id"
+	},
+	"orderConfrontingParameters": {
+		"title": "Confrontador",
+		"searchTitle": "Buscar parâmetro confrontador",
+		"listTitle": "Listagem de dados confrontáveis",
+		"formTitle": "Parâmetro confrontador",
+		"formTitleregistration": "Cadastro de campos confrontáveis",
+		"formTitleFlow": "Fluxos de aprovação",
+		"status": "Status",
+		"save": "Cadastrar",
+		"new": "Novo Confrontador",
+		"formOpening": "Aberturas",
+		"formDescriptionOrder": "Descrição do pedido",
+		"formExpectation": "Expectativa",
+		"formProbability": "Probabilidade",
+		"formAtivoInativo": "Ativo/inativo",
+		"formProbabelValue": "Valor provável",
+		"formPossibleValue": "Valor possível",
+		"formRemoteValue": "Valor remoto",
+		"formDataBase": "Data base",
+		"formCorrectionIndex": "Índice de correção",
+		"flowAlreadyRegistered": "Fluxo já cadastrado para essa área",
+		"flowHierarchyType": "Hierarquia",
+		"flowType": "Descrição do Nivel",
+		"id":"Id"
+	},
+	"provisionLog": {
+		"title": "Consultar pasta/CTG",
+		"searchValues": "Buscar valores envolvidos",
+		"list": {
+			"ratingDescription": "Abertura",
+			"probability": "Probabilidade",
+			"oldValue": "Valor anterior",
+			"newValue": "Valor atual",
+			"timestamp": "Data e hora",
+			"updatedBy": "Usuário",
+			"updateReason": "Razão da alteração",
+			"orderDescription": "Descrição do pedido",
+			"accountingDocument": "Doc. Contábil", 
+			"orderExpectationName": "Expectativa"
+		}
+	},
+	"report": {
+		"title": "Pedidos",
+		"searchTitle": "Filtro principal",
+		"button": "Gerar relatório",
+		"section": {
+			"provisionRequestsFilter": "Filtros do pedido de provisão"
+		}
+	},
+	"provision": {
+		"title": "Provisão",
+		"dataBase": "Data Base",
+		"correctionIndex": "Índice de correção"
+	},
+	"successFee": {
+		"title": "Honorário de êxito",
+		"feeValue": "Valor de êxito",
+		"taxAndCorrectionValue": "Valor correção e juros",
+		"updatedFeeValue": "Valor do êxito atualizado",
+		"dataBase": "Data Base",
+		"correctionIndex": "Índice de correção"
+	},
+	"businessCombination": {
+		"title": "Business Combination",
+		"value": "Valor Business Combination",
+		"downedBcValue": "Ajuste consolidado BC",
+		"bcConsolidatedAdjustment": "Valor do BC Baixado",
+		"lastEqualizationDate": "Data da última equalização"
+	},
+	"equalization": {
+		"title": "Equalização"
+	}
+}

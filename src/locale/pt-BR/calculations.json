@@ -1,0 +1,22 @@
+{
+	"id": "Número da solicitação",
+	"form": {
+		"modal": {
+			"initialRiskValue": {
+				"title": "Valor do Risco Inicial",
+				"message": "Valor do Risco informado 0 (Zero), confirma?"
+			}
+		}
+	},
+	"filter": {
+		"city": "Localidade",
+		"oppositePart": "Parte contrária",
+		"recordInclusion": "Data inclusão registro"
+	},
+	"PanelStatisticalOrder": {
+		"titleList": "Dados do Pedido Estatístico"
+	},
+	"RelatedParties": {
+		"titleList": "Partes Envolvidas"
+	}
+}

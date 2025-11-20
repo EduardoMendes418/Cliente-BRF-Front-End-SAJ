@@ -1,0 +1,259 @@
+{
+	"title": "Relatórios",
+	"generatedReports": "Relatórios gerados",
+	"titleFilter": "Consultar filtros salvos",
+	"titleList": "Listagem de filtros salvos",
+	"filterName": "Nome do filtro",
+	"userName": "Usuário",
+	"isPublic": "Visibilidade",
+	"isActive": "Ativo",
+	"createReportButton": "Gerar relatório",
+	"actions": "Ações",
+	"modal": {
+		"title": "Campos personalizados",
+		"selectAll": "Todos"
+	},
+	"common": {
+		"form": {
+			"until": "Até"
+		}
+	},
+	"payment": {
+		"title": "Filtro pagamento",
+		"form": {
+			"dataSolicitacaoInitial": "Data solicitação (de)",
+			"dataVencimentoInitial": "Data vencimento (de)",
+			"receiptDateInitial": "Data comprovante (de)",
+			"sapEntryDateInitial": "Data lançamento SAP (de)",
+			"periodoApuracaoInitial": "Período de apuração (de)",
+			"tipoPagamentoId": "Tipo de pagamento",
+			"formaPagamentoId": "Forma de pagamento",
+			"bankId": "Banco",
+			"valorPagamentoJudicialInitial": "Valor pgto. judicial (de)"
+		}
+	},
+	"main": {
+		"title": "Filtro principal",
+		"form": {
+			"folderNumberOption": "Opção de pasta CTG",
+			"originAreaId": "Área origem",
+			"legalDepartmentAreaId": "Área DEJUR",
+			"empresa": "Empresa",
+			"oppositePart": "Parte contrária",
+			"identifierNumber": "Número CNJ",
+			"oldNumber": "Número antigo",
+			"otherNumber": "Outro número",
+			"opposingLawyer": "Advogado parte contrária",
+			"folderNumber": "Pasta CTG",
+			"contingency": "Tipo de contigência",
+			"sphere": "Esfera",
+			"statusId": "Status",
+			"result": "Resultado",
+			"distributionDateInitial": "Data distribuição (de)",
+			"creationDateInitial": "Data cadastro (de)",
+			"dataComplementoCadastroInitial": "Dt. compl. cadastro (de)",
+			"terminationDateInitial": "Data Baixa Provisória (de)",
+			"closingDateInitial": "Data Morto (de)",
+			"comarca": "Comarca",
+			"city": "Localidade",
+			"internalLawyer": "Advogado interno",
+			"agent": "Preposto",
+			"mainResponsible": "Responsável principal",
+			"responsibleAreaId": "Escritório",
+			"officeResponsible": "Responsável do escritório",
+			"actionType": "Classe da ação",
+			"provisionClass": "Classe de provisão",
+			"originCostCenter": "Centro custo origem",
+			"costCenter": "Centro custo agrupador",
+			"closure": "Fechamento",
+			"businessArea": "Área de negócio",
+			"categoria": "Categoria / Espécie",
+			"objectList": "Lista objetos",
+			"involvedList": "Lista envolvidos",
+			"provisionOrderList": "Lista pedido provisão",
+			"empresaInvolved": "Envolvido - Empresa",
+			"oppositePartInvolved": "Envolvido - Parte Contrária",
+			"statusFlowId": "Status da solicitação",
+			"statusApprovalId": "Status da contabilização"
+		}
+	},
+	"judicialBlocksAndTransfers": {
+		"title": "Filtro bloqueio e transferência",
+		"form": {
+			"occurrenceBlockStatus": "Status sol. bloqueio judicial",
+			"occurrenceTransferStatus": "Status sol. transferência judicial",
+			"finishedDateInitial": "Data finalização (de)",
+			"occurrenceType": "Tipo ocorrência",
+			"occurrenceReason": "Motivo ocorrência",
+			"blockAndTransfersDateInitial": "Data bloq / transf (de)",
+			"requestDateInitial": "Data do registro (de)"
+		}
+	},
+	"pension": {
+		"title": "Filtro pensão",
+		"form": {
+			"dataSolicitacaoInitial": "Data solicitação (de)",
+			"dataPagamentoInitial": "Data de pagamento (de)",
+			"dataBaseCorrecaoInitial": "Data base correção (de)",
+			"tipoPagamentoId": "Tipo de pagamento",
+			"formaPagamentoId": "Forma de pagamento",
+			"favorecido": "Favorecido",
+			"bankId": "Banco",
+			"pensionCategoryId": "Categoria da pensão",
+			"statusPensionId": "Status da pensão",
+			"sapEntryDateInitial": "Data lançamento SAP (de)",
+			"receiptDateInitial": "Data comprovante (de)"
+		}
+	},
+	"guarantees": {
+		"title": "Filtro garantia",
+		"form": {
+			"guaranteeModality": "Modalidade de garantia",
+			"requestType": "Tipo de solicitação",
+			"status": "Status",
+			"guaranteeDateInitial": "Data da garantia (de)",
+			"writeOffDateInitial": "Data da baixa (de)",
+			"broker": "Nome da seguradora",
+			"policyNumber": "Número da apólice",
+			"endorsementNumber": "Número do endosso",
+			"emissionDateInitial": "Data da emissão (de)",
+			"startDate": "Data vigência (ínicio)",
+			"finalDate": "Fim",
+			"suretyLetterNumber": "Número carta fiança",
+			"bank": "Banco",
+			"judicialAccountNumber": "Número conta judicial",
+			"depositDateInitial": "Data depósito (de)",
+			"garanteeRequester": "Solicitante da garantia",
+			"paymentDateInitial": "Data pagamento (de)",
+			"statusGoods": "Status do bem",
+			"createdDate": "Data da Solicitação (de)",
+			"statusFlowId": "Status",
+			"requestStatus": "Status da solicitação",
+			"goodStatus": "Status do bem"
+		},
+		"accountability": {
+			"title": "Filtro prestação de contas",
+			"form": {
+				"accountabilityDateInitial": "Prestação de contas (de)",
+				"statusFlowId": "Status da prestação de contas",
+				"accountabilityRequester": "Solicitante prestação de contas",
+				"dismissalReason": "Motivo da baixa",
+				"licenseNumber": "Número do alvará",
+				"licenseDateInitial": "Data do alvará (de)",
+				"dateSentToTheBankInitial": "Data envio ao banco (de)",
+				"pendingTime": "Tempo pendente",
+				"situation": "Situação"
+			}
+		},
+		"evaluator": {
+			"title": "Filtro avaliador",
+			"form": {
+				"valuationDateInitial": "Data da avaliação (de)",
+				"reasonForFailure": "Motivo da reprovação",
+				"reasonForReturn": "Motivo da devolução",
+				"explanatoryNote": "Nota explicativa",
+				"releaseDateInitial": "Data da contabilização"
+			}
+		}
+	},
+	"statisticalOrder": {
+		"title": "Pedido Estatístico",
+		"form": {
+			"objectName": "Nome do Objeto",
+			"requestInclusionDate": "Data de inclusão do pedido"
+		}
+	},
+	"noticeInspectionPayment": {
+		"title": "Pagamento de Fiscalização",
+		"form": {
+			"tipoPagamento": "Tipo de Pagamento",
+			"formaPagamento": "Forma de Pagamento",
+			"status": "Status da Solicitação",
+			"dataSolicitacaoInicial": "Data Solicitação (de)",
+			"until": "Até",
+			"dataPagamentoInicial": "Data Pagamento (de)",
+			"valorPagamentoJudicialInitial": "Valor total da guia",
+			"bank": "Banco",
+			"closingDateInitial": "Data da Contabilização (de)",
+			"internalLawyer": "Advogado interno",
+			"favorecido": "Favorecido"
+		}
+	},
+	"creditReceipt": {
+		"title": "Filtro recebimento de crédito",
+		"form": {
+			"tipoPagamento": "Tipo de Recebimento",
+			"dataLancamento": "Data de lançamento (de)",
+			"until": "Até",
+			"status": "Status",
+			"evaluator": {
+				"title": "Avaliação",
+				"form": {
+					"bank": "Banco",
+					"dataAvaliacao": "Data de avaliação (de)",
+					"dataBaixa": "Data de baixa (de)",
+					"dataSend": "Envio banco saque (de)",
+					"motivo": "Motivo devolução/reprovação"
+				}
+			},
+			"sapRequestDateStart": "Data da contabilização (de)"
+		}
+	},
+	"legalDocument": {
+		"main": {
+			"title": "Filtro documento legal",
+			"dataSolicitacaoInitial":"Data solicitação (de)",
+			"requester": "Solicitante",
+			"status": "Status da Solicitação",
+			"type": "Tipo de Solicitação",
+			"coverages": "Abrangência",
+			"companyData": "Dados da Empresa",
+			"cnpj": "CNPJ",
+			"social": "Razão Social",
+			"nominatedData": "Nomeados",
+			"cpf": "CPF",
+			"oab": "OAB",
+			"office": "Escritório",
+			"correspondentsData": "Correspondentes",
+			"grantor": "Outorgante",
+			"publicAgency": "Órgão Público",
+			"company": "Empresa",
+			"grantorName": "Nome Outorgante",
+			"effectiveDate": "Data Vigência (de)",
+			"powers": "Poderes",
+			"bestow": "Outorgado",
+			"replacement": "Substabelecimentos",
+			"name": "Nome Completo",
+			"prepositionLetter": "Carta Preposição",
+			"procurationLegal": "Procuração Eletrônica - Jurídica",
+			"otherAreas": "Procuração Eletrônica - Outras Áreas"
+		},
+		"process": {
+			"title": "Dados do Processo",
+			"dejur": "Área DEJUR",
+			"folder": "Pasta/CTG",
+			"process": "Número do Processo",
+			"status":"Status do Processo",
+			"contingency": "Tipo de contigência",
+			"spere": "Esfera",
+			"company": "Empresa",
+			"opposite": "Parte Contrária",
+			"vara": "Vara",
+			"district": "Comarca",
+			"local": "Localidade",
+			"internalLawyer": "Advogado interno",
+			"agent": "Preposto",
+			"legalResponsible": "Resp. Jurídico",
+			"office": "Escritório",
+			"officeResponsible": "Resp. do Escritório",
+			"actionType": "Tipo da ação"
+		},
+		"service": {
+			"title": "Atendimento",
+			"serviceDateStart": "Data Atendimento (de)",
+			"attendant": "Atendente",
+			"status":"Status do Atendimento",
+			"deadline": "Prazo" 
+		}
+	}
+}

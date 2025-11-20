@@ -1,0 +1,34 @@
+{
+	"title": "Confrontador",
+	"filterTitle": "Filtro e relatório do confrontador",
+	"listTitle": "Listagem de processos do confrontador",
+	"modalReprovationTitle": "Motivo da reprovação",
+	"reason": "Motivo",
+	"button": {
+		"export": "exportar",
+		"undoSelection": "Desfazer seleção",
+		"disapproveSelection": "Reprovar seleção",
+		"approveSelection": "Aprovar seleção",
+		"generateReport": "Gerar relatório"
+	},
+	"table": {
+		"confronterStatus": "Status confrontador",
+		"confronterNumber": "Id Conf",
+		"contingency": "Tipo de CTG",
+		"internalLawyer": "Adv. interno",
+		"confronterPhase": "Fase confrontador",
+		"approvalStatus1": "Status aprovação primeiro nível",
+		"approvalStatus2": "Status aprovação segundo nível",
+		"approver1": "Aprovador primeiro nível",
+		"approver2": "Aprovador segundo nível",
+		"opinion1": "Parecer primeiro nível",
+		"opinion2": "Parecer segundo nível",
+		"orderDescription": "Descrição do pedido",
+		"from": "De",
+		"to": "Para",
+		"enableDisable": "Ativo/Inativo"
+	},
+	"error": {
+		"reloadNeeded": "Devido ao erro ocorrido será necessário atualizar a "
+	}
+}

@@ -1,0 +1,337 @@
+{
+	"titles": {
+		"requestParameters": "Parâmetros de requisição",
+		"receiverWithCopies": "Destinatários com cópias",
+		"users": "Usuários",
+		"profiles": "Perfil de acesso",
+		"economicIndices": "Índices econômicos",
+		"defaultOrderValue": "Valor predefinido do pedido",
+		"formulaCorrectionRule": "Fórmula / regra de correção",
+		"equalizationParameters": "Parâmetros da equalização",
+		"taxRatesINSS": "Parâmetros de valores do INSS",
+		"watson": "Watson",
+		"evaluationReason": "Motivos reprovação / devolução / estorno"
+	},
+	"requestParameters": {
+		"status": "Status",
+		"id": "Código",
+		"request": "Requisição",
+		"responsible": "Responsável",
+		"deadline": "Prazo",
+		"noDeadline": "Sem prazo",
+		"hourDeadline": "{{hs}} hora",
+		"form": {
+			"requestType": "Tipo de requisição",
+			"responsibleName": "Nome do responsável",
+			"parameters": "Parâmetros",
+			"description": "Descrição",
+			"requestHelp": "Help da requisição",
+			"countDeadline": "Contar prazo",
+			"hasDeadline": "Com prazo?",
+			"hoursDeadline": "Horas",
+			"resultReport": "Informar resultado?",
+			"attachmentRequired": "Anexo obrigatório",
+			"folderNumberRequired": "Pasta CTG obrigatória?",
+			"processComplement": "Complemento de Ficha?",
+			"statusFolderNumber": "Altera status CTG para",
+			"administrativeControl": "Equipe de atendimento"
+		}
+	},
+	"users": {
+		"titleList": "Listagem de usuários",
+		"titleSearch": "Buscar usuários",
+		"titleForm": "Cadastrar novo usuário",
+		"name": "Nome",
+		"email": "E-mail",
+		"profile": "Perfil de acesso",
+		"status": "Status",
+		"office": "Escritório",
+		"lastAccess": "Último acesso",
+		"generateExcelButton": "Exportar para Excel",
+		"createdDate": "Data de Cadastro",
+		"deactivationDate": "Data Desativação",
+		"form": {
+			"rg": "RG",
+			"cpf": "CPF",
+			"oab": "OAB",
+			"office": "Cargo",
+			"departament": "Departamento",
+			"location": "Localidade",
+			"brfEmail": "E-mail BRF",
+			"phone": "Telefone",
+			"officeName": "Razão social do escritório",
+			"responsibleOffice": "Responsável pelo escritório",
+			"dejurArea": "Área DEJUR",
+			"responsibleArea": "Área responsável",
+			"isInternal": "Tipo de usuário",
+			"isAdmin": "Administrador",
+			"contributorId": "Id Colaborador",
+			"idBrf": "Id Contato",
+			"role": "Papel",
+			"degreeOfConfidentiality": "Grau de Confidencialidade",
+			"internalLawyerId": "Advogado Interno",
+			"officeResponsibleId": "Responsável Escritório",
+			"legalResponsibleId": "Responsável Jurídico"
+		}
+	},
+	"profiles": {
+		"titleList": "Listagem perfis de acesso",
+		"titleSearch": "Buscar perfis de acesso",
+		"profile": "Perfil de acesso",
+		"permissions": "Permissões",
+		"description": "Nome do perfil",
+		"status": "Status",
+		"form": {
+			"name": "Nome da tela",
+			"add": "Incluir",
+			"edit": "Alterar",
+			"del": "Excluir",
+			"view": "Consultar",
+			"actions": "Ações"
+		}
+	},
+	"eSocialArea": {
+		"title": "Área Dejur do eSocial",
+		"editTitle": "Editar Área Dejur do eSocial",
+		"list": {
+			"id": "Id",
+			"description": "Descrição",
+			"isActive": "Ativo/inativo"
+		},
+		"form": {
+
+		}
+	},
+	"economicIndices": {
+		"name": "Nome do indice",
+		"period": "Tipo do período",
+		"id": "Id",
+		"type": "Tipo",
+		"description": "Descrição",
+		"searchEconomicIndices": "Buscar índice econômico",
+		"updatedDate": "Data de atualização",
+		"status": "Status",
+		"error": {
+			"monthly": "Não pode existir mais de uma data por mês",
+			"yearly": "Não pode existir mais de uma data por ano"
+		},
+		"form": {
+			"title": "Novo índice",
+			"viewTitle": "Índice econômico",
+			"occurrences": "Ocorrências",
+			"date": "Data",
+			"value": "Valor",
+			"referenceValue": "Valor / R$",
+			"modalErrorText": "Insira um arquivo no formato .csv contendo apenas duas colunas com separador \";\". A primeira coluna deve conter a data no formato dd/mm/aaaa e a segunda o valor.",
+			"uploadButtonText": "IMPORTAR CSV",
+			"percentage": "Percentual"
+		}
+	},
+	"defaultOrderValue": {
+		"titleList": "Listagem de valores predefinidos do pedido",
+		"titleSearch": "Buscar valor predefinido do pedido",
+		"titleForm": "Cadastro do valor predefinido do pedido",
+		"form": {
+			"dejurArea": "Área DEJUR",
+			"folderStatus": "Status Pasta / CTG",
+			"orderDescription": "Descrição do pedido",
+			"orderRatingDescription": "Descrição da abertura",
+			"probability": "Probabilidade",
+			"provisionAmount": "Valor da provisão",
+			"status": "Status",
+			"CorrectionFormulaAndRule": "Fórmula / regra de correção"
+		}
+	},
+	"formulaCorrectionRule": {
+		"titleList": "Listagem de fórmula / regra de correção",
+		"titleSearch": "Buscar fórmula / regra de correção",
+		"titleForm": "Cadastro fórmula / regra de correção",
+		"list": {
+			"modalTitle": "Aviso!",
+			"modalMessage": "A fórmula selecionada não possui regras de correção vinculadas. O que você deseja fazer?",
+			"deleteButton": "Excluir fórmula",
+			"addButton": "Incluir nova regra de correção"
+		},
+		"form": {
+			"formula": "Fórmula",
+			"formulaName": "Nome da fórmula",
+			"status": "Status",
+			"correctionRule": "Regra de correção",
+			"index": "Índice",
+			"correctionStart": "Período de início de correção",
+			"correctionEnd": "Período de fim de correção",
+			"feesStart": "Período de início dos juros",
+			"feesEnd": "Período de fim dos juros",
+			"feesValue": "Taxa de juros",
+			"fineType": "Tipo valor da multa",
+			"fineValue": "Valor da multa",
+			"id": "Id"
+		}
+	},
+	"equalizationParameters": {
+		"titleList": "Listagem dos parâmetros da equalização",
+		"titleSearch": "Parâmetros da equalização",
+		"titleForm": "Cadastro equalização",
+		"form": {
+			"dejurArea": "Área DEJUR",
+			"folderStatus": "Status Pasta / CTG",
+			"contingencyType": "Tipo de contingência",
+			"daysNumber": "Número de dias em data baixa provisória",
+			"monetaryUpdateRule": "Regra de atualização monetária",
+			"monetaryUpdateRuleId": "ID regra LegalOne",
+			"status": "Status",
+			"runningEqualization": "Executando equalização"
+		}
+	},
+	"taxRatesINSS": {
+		"titleSearch": "Buscar tabelas INSS",
+		"titleList": "Listagem tabelas INSS",
+		"titleForm": "Valores INSS",
+		"form": {
+			"taxpayerSalary": "Salário do contribuinte"
+		}
+	},
+	"calendary": {
+		"titleForm": "Cadastrar dia não útil",
+		"date": "Data",
+		"today": "HOJE",
+		"description": "Descrição",
+		"search": "Pesquise por descrição",
+		"workingDay": "Dia útil",
+		"nonWorkingDay": "Dia não útil"
+	},
+	"evaluationReason": {
+		"titleSearch": "Buscar motivos reprovação / devolução / estorno",
+		"titleList": "Listagem motivos reprovação / devolução / estorno",
+		"titleForm": "Cadastrar novo motivo devolução / reprovação / estorno",
+		"form": {
+			"reasonType": "Tipo motivo",
+			"description": "Descrição",
+			"status": "Status",
+			"modulo": "Tipo modulo",
+			"id": "id"
+		}
+	},
+	"helpFiles": {
+		"form": {
+			"documentName": "Nome do documento",
+			"keywords": "Palavra-chave",
+			"fileOrigin": "Documento de origem",
+			"filePublish": "Documento publicado"
+		}
+	},
+	"shared": {
+		"id": "ID da tabela",
+		"initialDate": "Data início da vigência",
+		"finalDate": "Data final da vigência",
+		"aliquot": "Alíquota (%)"
+	},
+	"watson": {
+		"save": "Salvar",
+		"watsonFilterListing": "Listagem de filtro Watson",
+		"registerFilter": "Cadastrar filtro",
+		"filterName": "Nome do filtro",
+		"newFilter": "Novo filtro",
+		"watsonParameters": "Parâmetros data lake Watson",
+		"RunningWatsonLoad": "Execução da carga de Watson",
+		"CargoLegalOne": "Execução da carga no Legal One",
+		"user": "Usuário",
+		"actions": "Ações",
+		"id": "Id"
+	},
+	"officeManagement": {
+		"officeManagement": "Gestão de escritórios",
+		"status": "Status",
+		"documentType": "Tipo de documento",
+		"responsibleLegalArea": "Responsável área jurídica",
+		"NatureInvoice": "Natureza da nota fiscal",
+		"RequestRefund": "Solicitar reembolso",
+		"evaluationRefund": "Validação controle jurídico reembolso",
+		"attorneyApprovalRefund": "Aprovação advogado interno reembolso",
+		"ResponsibleLegalControlArea": "Responsável área controle jurídico"
+	},
+	"status": {
+		"status": "Status",
+		"searchStatus": "Buscar status",
+		"statusName": "Nome do status",
+		"statusList": "Listagem de status",
+		"statusRegistration": "Cadastro de status"
+	},
+	"documentType": {
+		"documentType": "Tipo de documento",
+		"searchDocumentType": "Buscar tipo de documento",
+		"documentTypeList": "Listagem de tipos de documentos",
+		"documentTypeRegistration": "Cadastro de tipo de documento"
+	},
+	"responsibleLegalArea": {
+		"name": "Nome",
+		"searchResponsibleLegalArea": "Buscar responsável área jurídica",
+		"responsibleLegalAreaList": "Listagem de responsáveis área jurídica",
+		"areaDejur": "Área DEJUR",
+		"responsibleLegalAreaRegistration": "Cadastro de responsável área jurídica"
+	},
+	"control": {
+		"id": "Id",
+		"name": "Nome",
+		"searchControl": "Buscar responsável área controle jurídico",
+		"controlList": "Listagem de responsáveis área controle jurídico",
+		"controlRegistration": "Cadastro de responsável área controle jurídico"
+	},
+	"invoice": {
+		"nature": "Natureza",
+		"natureCategory": "Categoria requisição SAP",
+		"areaDejur": "Área DEJUR",
+		"requestSap": "Tipo requisição SAP",
+		"search": "Buscar natureza da nota fiscal",
+		"list": "Listagem de naturezas da nota fiscal",
+		"registration": "Cadastro de natureza da nota fiscal"
+	},
+	"report": {
+		"filter": {
+			"title": "Filtro",
+			"reportComponent": "Relatorios",
+			"environment": "Ambiente"
+		},
+		"types": {
+			"title": "Filtro",
+			"payment": "Pagamento",
+			"goodsAndGuarantees": "Bens e garantias",
+			"blockAndTransfer": "Bloqueio e transferencia",
+			"pensions": "Pensões",
+			"statisticalRequest": "Pedido Estatístico",
+			"inspectionPayment": "Pagamento de Fiscalização",
+			"legalDocuments": "Documentos Legais",
+			"creditReceipt": "Recebimento de Crédito",
+			"circularization": "Circularização",
+			"accounting": "Atualização de depósitos"
+		},
+		"table": {
+			"title": "Fields",
+			"actions": "Ações",
+			"displayName": "Display Name",
+			"fieldName": "Field Name",
+			"fixedField": "Fixo"
+		},
+		"form": {
+			"title": "Field",
+			"displayName": "Display Name",
+			"fieldName": "Field Name",
+			"fixedField": "Fixo"
+		},
+		"modal": {
+			"title": "Aplicar modificação",
+			"updateQas": "Atualizar QAS ?",
+			"updatePrd": "Atualizar PRD ?"
+		}
+	},
+	"lockSystem": {
+		"listTitle": "Listagem dos bloqueio de sistema",
+		"formTitle": "Cadastro bloqueio de sistema",
+		"id": "Id",
+		"startDate": "Data de inicio",
+		"endDate": "Date de fim",
+		"isActive": "Ativo",
+		"userProfiles": "Perfis",
+		"message": "Mensagem"
+	}
+}

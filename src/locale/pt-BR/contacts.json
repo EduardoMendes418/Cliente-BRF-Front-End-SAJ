@@ -1,0 +1,47 @@
+{
+	"title": "Contatos",
+	"contactSearch": "Buscar contato",
+	"contactsList": "Lista de Contatos",
+	"contactRegister": "Cadastro de Contato",
+	"contactEdit": "Editar Contato",
+	"contactData": "Dados do Contato",
+	"contactReport": "Filtros do Contato",
+	"search": {
+		"nameOrCompanyName": "Nome/Razão social",
+		"cpf": "CPF",
+		"cnpj": "CNPJ",
+		"cpfCnpj": "CPF/CNPJ",
+		"phoneNumber": "Telefone",
+		"email": "E-mail",
+		"contactType": "Tipo",
+		"registerDate": "Data de cadastro",
+		"registeredBy": "Cadastrado por",
+		"module": "Módulo",
+		"nameOrDescription": "Nome/Descrição",
+		"involvement": "Envolvimento",
+		"contactReportEndDate":"Até",
+		"contactReportDate":"Data de Cadastro"
+	},
+	"country": "País",
+	"type": "Tipo",
+	"isMain": "Principal",
+	"cpfData": {
+		"name": "Nome",
+		"gender": "Gênero",
+		"birthDate": "Data de nascimento"
+	},
+	"cnpjData": {
+		"socialReason": "Razão social",
+		"fantasyName": "Nome fantasia"
+	},
+	"addressData": {
+		"street": "Logradouro",
+		"number": "Número",
+		"complement": "Complemento",
+		"neighborhood": "Bairro",
+		"city": "Cidade",
+		"state": "Estado",
+		"zipCode": "CEP",
+		"uf": "UF"
+	}
+}

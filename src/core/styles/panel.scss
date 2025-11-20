@@ -1,0 +1,107 @@
+.panel {
+	background-color: #fff;
+	border-radius: 8px;
+	margin-top: 20px;
+
+	.panel-header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+		.panel-title {
+			padding: 10px 0;
+		}
+
+		@include breakpoint(xs) {
+			padding: 0 16px;
+		}
+
+		@include breakpoint(md) {
+			padding: 0 32px;
+		}
+	}
+
+	.panel-content {
+		@include breakpoint(xs) {
+			padding: 16px;
+		}
+
+		@include breakpoint(md) {
+			padding: 24px;
+		}
+	}
+
+	
+
+}
+
+.payment-modal-table {
+	.panel {
+		margin-top: 0;
+	}
+
+	hr {
+		height: 0;
+	}
+	table {
+		position: relative;
+
+		thead {
+			position: sticky;
+			top: 0;
+			z-index: 10;
+			pointer-events: none;
+			
+		}
+
+
+		tr:nth-child(even) {
+			background-color: #FBFBFB;
+			border-left: solid #FBFBFB 102px;
+			
+		}
+
+		tr {
+			border-left: solid white 102px;
+
+			&:hover {
+				background-color: #f5f4f4;
+				border-left: solid #f5f4f4 102px;
+			}
+		}
+
+
+		th {
+			background-color: white;
+		}
+
+		th, td {
+			color: #8D9091;
+			border: none;
+
+		}
+
+		
+	}
+	.MuiTableContainer-root:nth-of-type(1) {
+		height: 165px;
+	}
+	.MuiTableContainer-root:nth-of-type(2) {
+		height: 180px;
+
+		thead {
+			td {
+				background-color: white;
+								
+			}
+		}
+	}
+
+	@media (min-width: 1920px){
+		.MuiTableContainer-root:nth-of-type(2) {
+			height: 300px;
+		}
+	}
+	
+}

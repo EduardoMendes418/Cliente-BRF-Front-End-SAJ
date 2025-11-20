@@ -1,0 +1,13 @@
+{
+	"title": "Cadastro de aprovadores",
+	"approverID": "ID aprovador",
+	"approverName": "Nome do aprovador",
+	"hierarchy": "Hierarquia",
+	"juridicalArea": "Área DEJUR",
+	"validations": {
+		"juridicalArea": "Por favor, selecione a área jurídica.",
+		"approverID": "Por favor, digite o ID do aprovador."
+	},
+	"status": "Status",
+	"observation": "Observação"
+}

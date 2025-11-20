@@ -1,0 +1,35 @@
+.grayBox {
+	background: #F5F5F5;
+	border-radius: 8px;
+	width: 481px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 16px 8px;
+
+	p {
+		margin: 0;
+	}
+
+	.MuiGrid-item {
+		padding: 0 !important;
+	}
+
+	.grayKey {
+		font-family: 'Noto Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 24px;
+		color: #8D9091;
+		margin-left: 75px;
+	}
+
+	.grayValue {
+		font-family: 'Noto Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		color: #000000;
+	}
+}

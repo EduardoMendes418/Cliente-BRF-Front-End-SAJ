@@ -1,0 +1,26 @@
+export type TReportFilters = {
+	startRequestDate: string | null | undefined;
+	endRequestDate: string | null | undefined;
+	externalCompanyId: number | '';
+	createdBy: string;
+	aprovalStatus: number | '';
+	preInvoiceNumber: number | '';
+	invoiceNumber: number | '';
+	startInvoiceIssuanceDate: string | null | undefined;
+	endInvoiceIssuanceDate: string | null | undefined;
+	documentTypeId: number | '';
+	legalResponsibleId: number | '';
+	natureInvoiceId: number | '';
+	contractSap: string;
+	approverIdSAP: string;
+	legalResponsibleControlId: number | '';
+	startPaymentDate: string | null | undefined;
+	endPaymentDate: string | null | undefined;
+	startAnalysisDate: string | null | undefined;
+	endAnalysisDate: string | null | undefined;
+	internalLawyerId: number | '';
+	externalOfficeId: number | '';
+	startEvaluationDateLegalControl: string | null | undefined;
+	endEvaluationDateLegalControl: string | null | undefined;
+	approverLegalControl: string;
+};
